@@ -33,7 +33,7 @@ export function LangSwitcher() {
                         type="submit"
                         name="locale"
                         value="pt"
-                        className={`size-9 rounded-full transition-opacity ${locale !== "pt" ? "opacity-50" : ""}`}
+                        className={`size-9 rounded-full transition-opacity ${locale !== "pt" ? "opacity-50" : ""} data-[state=on]:rounded-full dark:data-[state=on]:bg-primary dark:data-[state=on]:text-primary-foreground`}
                     >
                         <Avatar className="size-7">
                             <AvatarImage fetchPriority="high" src={brFlag.src} />
@@ -44,7 +44,7 @@ export function LangSwitcher() {
                         type="submit"
                         name="locale"
                         value="en"
-                        className={`size-9 rounded-full transition-opacity ${locale !== "en" ? "opacity-50" : ""}`}
+                        className={`size-9 rounded-full transition-opacity ${locale !== "en" ? "opacity-50" : ""} data-[state=on]:rounded-full dark:data-[state=on]:bg-primary dark:data-[state=on]:text-primary-foreground`}
                     >
                         <Avatar className="size-7">
                             <AvatarImage fetchPriority="high" src={usFlag.src} />
