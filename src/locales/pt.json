@@ -1,0 +1,32 @@
+{
+    "header": {
+        "title": "Maxwell Paulo",
+        "nav": {
+            "home": "Início",
+            "projects": "Projetos",
+            "about": "Sobre",
+            "contact": "Contato"
+        },
+        "projects": {
+            "project1": {
+                "title": "Projeto 1",
+                "description": "Descrição do Projeto 1."
+            },
+            "project2": {
+                "title": "Projeto 2",
+                "description": "Descrição do Projeto 2."
+            },
+            "project3": {
+                "title": "Projeto 3",
+                "description": "Descrição do Projeto 3."
+            },
+            "project4": {
+                "title": "Projeto 4",
+                "description": "Descrição do Projeto 4."
+            }
+        }
+    },
+    "langSwitcher": {
+        "tooltip": "Selecione o idioma"
+    }
+}
