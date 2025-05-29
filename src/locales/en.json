@@ -28,5 +28,13 @@
     },
     "langSwitcher": {
         "tooltip": "Select language"
+    },
+    "hero": {
+        "greeting": "Hi, I'm",
+        "name": "Maxwell Paulo",
+        "title": "Front-End Developer",
+        "subtitle": "Crafting seamless and engaging digital experiences. Let's build something amazing together.",
+        "ctaButton": "View Projects",
+        "ctaContactButton": "Get in Touch"
     }
 }

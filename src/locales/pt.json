@@ -28,5 +28,13 @@
     },
     "langSwitcher": {
         "tooltip": "Selecione o idioma"
+    },
+    "hero": {
+        "greeting": "Olá, eu sou",
+        "name": "Maxwell Paulo",
+        "title": "Desenvolvedor Front-End",
+        "subtitle": "Criando experiências digitais fluidas e envolventes. Vamos construir algo incrível juntos.",
+        "ctaButton": "Ver Projetos",
+        "ctaContactButton": "Entrar em Contato"
     }
 }

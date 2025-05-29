@@ -1,5 +1,6 @@
 "use client";
 
+import { Hero } from '@/components/Hero';
 import { useEffect, useState } from "react";
 
 export default function Home() {
@@ -12,7 +13,8 @@ export default function Home() {
   if (!mounted) return null;
 
   return (
-    <main className="bg-background flex h-screen items-center justify-center">
+    <main className="bg-background flex flex-col items-center justify-center">
+      <Hero />
       <div className="flex flex-col items-center justify-center gap-4">
 
       </div>
