@@ -36,5 +36,9 @@
         "subtitle": "Criando experiências digitais fluidas e envolventes. Vamos construir algo incrível juntos.",
         "ctaButton": "Ver Projetos",
         "ctaContactButton": "Entrar em Contato"
+    },
+    "projectsSection": {
+        "title": "Meus Projetos",
+        "viewProjectButton": "Ver Projeto"
     }
 }

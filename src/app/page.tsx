@@ -1,6 +1,7 @@
 "use client";
 
 import { Hero } from '@/components/Hero';
+import { ProjectsSection } from '@/components/ProjectsSection';
 import { useEffect, useState } from "react";
 
 export default function Home() {
@@ -15,9 +16,7 @@ export default function Home() {
   return (
     <main className="bg-background flex flex-col items-center justify-center">
       <Hero />
-      <div className="flex flex-col items-center justify-center gap-4">
-
-      </div>
+      <ProjectsSection />
     </main>
   );
 }
