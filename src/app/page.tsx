@@ -2,6 +2,7 @@
 
 import { Hero } from '@/components/Hero';
 import { ProjectsSection } from '@/components/ProjectsSection';
+import { AboutSection } from '@/components/AboutSection';
 import { useEffect, useState } from "react";
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
     <main className="bg-background flex flex-col items-center justify-center">
       <Hero />
       <ProjectsSection />
+      <AboutSection />
     </main>
   );
 }

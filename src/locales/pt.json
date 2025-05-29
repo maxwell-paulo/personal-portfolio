@@ -40,5 +40,11 @@
     "projectsSection": {
         "title": "Meus Projetos",
         "viewProjectButton": "Ver Projeto"
+    },
+    "aboutSection": {
+        "title": "Sobre Mim",
+        "paragraph1": "Olá! Sou Maxwell Paulo, um Desenvolvedor Front-End apaixonado por criar experiências web intuitivas, dinâmicas e de alta performance. Com um olhar atento para o design e uma base sólida em tecnologias web modernas, busco construir aplicações que não apenas tenham uma ótima aparência, mas também proporcionem uma jornada de usuário fluida.",
+        "paragraph2": "Minha jornada no desenvolvimento web é impulsionada por um desejo constante de aprender e me adaptar ao cenário digital em constante evolução. Gosto de enfrentar desafios complexos e transformar ideias em soluções tangíveis e impactantes.",
+        "skillsTitle": "Tecnologias com que Trabalho"
     }
 }
