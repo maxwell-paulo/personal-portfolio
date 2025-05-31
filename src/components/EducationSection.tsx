@@ -88,7 +88,7 @@ export function EducationSection() {
                         variants={itemVariants} // Each item animates individually
                         className="p-6 rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow overflow-hidden"
                     >
-                        <div className="flex items-center justify-between mb-2">
+                        <div className="flex flex-col-reverse items-start gap-2 mb-3 md:flex-row md:items-center md:justify-between md:gap-0 md:mb-2">
                             <h3 className="text-xl font-semibold text-foreground">{item.title}</h3>
                             <Badge variant="outline" className="text-xs shrink-0">
                                 {getItemIcon(item.type)}
