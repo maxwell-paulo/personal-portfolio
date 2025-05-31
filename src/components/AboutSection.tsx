@@ -2,45 +2,22 @@
 
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
-import {
-    SiNextdotjs, SiTypescript, SiJavascript, SiReact, SiNodedotjs, SiExpress,
-    SiPython, SiDjango, SiPostgresql, SiMongodb, SiHtml5, SiCss3,
-    SiTailwindcss, SiGit
-} from 'react-icons/si';
-import { TbSql, TbApi } from 'react-icons/tb';
-import { MdImportantDevices } from 'react-icons/md';
-import { IconType } from 'react-icons';
+// Icons are now part of the imported technologiesList, so direct imports here are not needed.
+// import {
+//     SiNextdotjs, SiTypescript, SiJavascript, SiReact, SiNodedotjs, SiExpress,
+//     SiPython, SiDjango, SiPostgresql, SiMongodb, SiHtml5, SiCss3,
+//     SiTailwindcss, SiGit
+// } from 'react-icons/si';
+// import { TbSql, TbApi } from 'react-icons/tb';
+// import { MdImportantDevices } from 'react-icons/md';
+// import { IconType } from 'react-icons'; // IconType is now in technologies.ts
 import {
     Tooltip,
     TooltipContent,
     TooltipProvider,
     TooltipTrigger,
 } from '@/components/ui/tooltip';
-
-interface Technology {
-    name: string;
-    IconComponent: IconType;
-}
-
-const technologies: Technology[] = [
-    { name: "NextJS", IconComponent: SiNextdotjs },
-    { name: "Typescript", IconComponent: SiTypescript },
-    { name: "Javascript", IconComponent: SiJavascript },
-    { name: "React", IconComponent: SiReact },
-    { name: "NodeJS", IconComponent: SiNodedotjs },
-    { name: "Express", IconComponent: SiExpress },
-    { name: "Python", IconComponent: SiPython },
-    { name: "Django", IconComponent: SiDjango },
-    { name: "SQL", IconComponent: TbSql },
-    { name: "Postgres", IconComponent: SiPostgresql },
-    { name: "MongoDB", IconComponent: SiMongodb },
-    { name: "HTML", IconComponent: SiHtml5 },
-    { name: "CSS", IconComponent: SiCss3 },
-    { name: "Tailwind", IconComponent: SiTailwindcss },
-    { name: "Rest API", IconComponent: TbApi },
-    { name: "Git", IconComponent: SiGit },
-    { name: "Responsive Designer", IconComponent: MdImportantDevices },
-];
+import { technologiesList } from '@/data/technologies';
 
 export function AboutSection() {
     const t = useTranslations('aboutSection');
@@ -96,14 +73,14 @@ export function AboutSection() {
                     variants={staggerContainer}
                     className="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto"
                 >
-                    {technologies.map((tech) => (
+                    {technologiesList.map((tech) => (
                         <Tooltip key={tech.name} delayDuration={100}>
                             <TooltipTrigger asChild>
                                 <motion.div
                                     variants={itemVariants}
-                                    className="p-2 flex flex-col items-center text-center cursor-pointer"
+                                    className="p-2 flex flex-col items-center justify-center text-center cursor-pointer w-24 h-24 rounded-md hover:bg-accent"
                                 >
-                                    <tech.IconComponent size={48} className="text-muted-foreground hover:text-foreground transition-colors" />
+                                    <tech.IconComponent size={48} className="text-muted-foreground group-hover:text-foreground transition-colors" />
                                 </motion.div>
                             </TooltipTrigger>
                             <TooltipContent>

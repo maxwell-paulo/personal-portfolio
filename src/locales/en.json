@@ -46,5 +46,53 @@
         "paragraph1": "Hello! I'm Maxwell Paulo, a passionate Front-End Developer dedicated to creating intuitive, dynamic, and high-performance web experiences. With a keen eye for design and a strong foundation in modern web technologies, I strive to build applications that not only look great but also provide a seamless user journey.",
         "paragraph2": "My journey in web development is driven by a constant desire to learn and adapt to the ever-evolving digital landscape. I enjoy tackling complex challenges and transforming ideas into tangible, impactful solutions.",
         "skillsTitle": "Technologies I Work With"
+    },
+    "experienceSection": {
+        "title": "Professional Experience",
+        "technologiesUsed": "Technologies Used:",
+        "type": {
+            "fullTime": "Full-time",
+            "internship": "Internship",
+            "freelance": "Freelance"
+        },
+        "experiences": {
+            "exp1": {
+                "role": "Frontend Developer",
+                "company": "Tech Solutions Inc.",
+                "period": "Jan 2022 - Present",
+                "description": "Developed and maintained responsive web applications using React and Next.js. Collaborated with UI/UX designers to implement user-friendly interfaces. Optimized applications for maximum speed and scalability.",
+                "type": "fullTime"
+            },
+            "exp2": {
+                "role": "Web Development Intern",
+                "company": "Creative Agency LLC",
+                "period": "Jun 2021 - Dec 2021",
+                "description": "Assisted senior developers in building and testing website components. Gained experience with HTML, CSS, JavaScript, and version control systems like Git. Contributed to a project for a major client, focusing on front-end tasks.",
+                "type": "internship"
+            },
+            "exp3": {
+                "role": "Web Development Intern",
+                "company": "Creative Agency LLC",
+                "period": "Jun 2021 - Dec 2021",
+                "description": "Assisted senior developers in building and testing website components. Gained experience with HTML, CSS, JavaScript, and version control systems like Git. Contributed to a project for a major client, focusing on front-end tasks.",
+                "type": "internship"
+            },
+            "exp4": {
+                "role": "Web Development Intern",
+                "company": "Creative Agency LLC",
+                "period": "Jun 2021 - Dec 2021",
+                "description": "Assisted senior developers in building and testing website components. Gained experience with HTML, CSS, JavaScript, and version control systems like Git. Contributed to a project for a major client, focusing on front-end tasks.",
+                "type": "internship"
+            },
+            "exp5": {
+                "role": "Web Development Intern",
+                "company": "Creative Agency LLC",
+                "period": "Jun 2021 - Dec 2021",
+                "description": "Assisted senior developers in building and testing website components. Gained experience with HTML, CSS, JavaScript, and version control systems like Git. Contributed to a project for a major client, focusing on front-end tasks.",
+                "type": "internship"
+            }
+        },
+        "showMoreButton": "Show More",
+        "showLessButton": "Show Less"
     }
 }

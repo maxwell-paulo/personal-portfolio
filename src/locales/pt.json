@@ -46,5 +46,53 @@
         "paragraph1": "Olá! Sou Maxwell Paulo, um Desenvolvedor Front-End apaixonado por criar experiências web intuitivas, dinâmicas e de alta performance. Com um olhar atento para o design e uma base sólida em tecnologias web modernas, busco construir aplicações que não apenas tenham uma ótima aparência, mas também proporcionem uma jornada de usuário fluida.",
         "paragraph2": "Minha jornada no desenvolvimento web é impulsionada por um desejo constante de aprender e me adaptar ao cenário digital em constante evolução. Gosto de enfrentar desafios complexos e transformar ideias em soluções tangíveis e impactantes.",
         "skillsTitle": "Tecnologias com que Trabalho"
+    },
+    "experienceSection": {
+        "title": "Experiência Profissional",
+        "technologiesUsed": "Tecnologias Utilizadas:",
+        "type": {
+            "fullTime": "Período Integral",
+            "internship": "Estágio",
+            "freelance": "Freelance"
+        },
+        "experiences": {
+            "exp1": {
+                "role": "Desenvolvedor Frontend",
+                "company": "Tech Solutions Inc.",
+                "period": "Jan 2022 - Presente",
+                "description": "Desenvolvi e mantive aplicações web responsivas usando React e Next.js. Colaborei com designers UI/UX para implementar interfaces amigáveis. Otimizei aplicações para máxima velocidade e escalabilidade.",
+                "type": "fullTime"
+            },
+            "exp2": {
+                "role": "Estagiário de Desenvolvimento Web",
+                "company": "Creative Agency LLC",
+                "period": "Jun 2021 - Dez 2021",
+                "description": "Auxiliei desenvolvedores sêniores na construção e teste de componentes de websites. Adquiri experiência com HTML, CSS, JavaScript e sistemas de controle de versão como Git. Contribuí para um projeto de um cliente importante, focando em tarefas de front-end.",
+                "type": "internship"
+            },
+            "exp3": {
+                "role": "Estagiário de Desenvolvimento Web",
+                "company": "Creative Agency LLC",
+                "period": "Jun 2021 - Dez 2021",
+                "description": "Auxiliei desenvolvedores sêniores na construção e teste de componentes de websites. Adquiri experiência com HTML, CSS, JavaScript e sistemas de controle de versão como Git. Contribuí para um projeto de um cliente importante, focando em tarefas de front-end.",
+                "type": "internship"
+            },
+            "exp4": {
+                "role": "Estagiário de Desenvolvimento Web",
+                "company": "Creative Agency LLC",
+                "period": "Jun 2021 - Dez 2021",
+                "description": "Auxiliei desenvolvedores sêniores na construção e teste de componentes de websites. Adquiri experiência com HTML, CSS, JavaScript e sistemas de controle de versão como Git. Contribuí para um projeto de um cliente importante, focando em tarefas de front-end.",
+                "type": "internship"
+            },
+            "exp5": {
+                "role": "Estagiário de Desenvolvimento Web",
+                "company": "Creative Agency LLC",
+                "period": "Jun 2021 - Dez 2021",
+                "description": "Auxiliei desenvolvedores sêniores na construção e teste de componentes de websites. Adquiri experiência com HTML, CSS, JavaScript e sistemas de controle de versão como Git. Contribuí para um projeto de um cliente importante, focando em tarefas de front-end.",
+                "type": "internship"
+            }
+        },
+        "showMoreButton": "Mostrar Mais",
+        "showLessButton": "Mostrar Menos"
     }
 }
