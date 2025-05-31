@@ -94,5 +94,49 @@
         },
         "showMoreButton": "Show More",
         "showLessButton": "Show Less"
+    },
+    "educationSection": {
+        "title": "Education & Certifications",
+        "type": {
+            "degree": "Degree",
+            "bootcamp": "Bootcamp",
+            "course": "Course",
+            "certification": "Certification"
+        },
+        "items": {
+            "edu1": {
+                "title": "Bachelor of Science in Computer Science",
+                "institution": "University of Technology",
+                "period": "2016 - 2020",
+                "description": "Focused on software development, algorithms, and data structures. Completed a final year project on web application security.",
+                "type": "degree",
+                "certificateLink": ""
+            },
+            "edu2": {
+                "title": "Full-Stack Web Development Bootcamp",
+                "institution": "Dev Academy",
+                "period": "2021 (3 months)",
+                "description": "Intensive training covering HTML, CSS, JavaScript, React, Node.js, and database management. Built several full-stack projects.",
+                "type": "bootcamp",
+                "certificateLink": "https://aulas.cubos.academy/certificado/583dd33e-0be0-4169-a16b-fe9ecbafe92d?utm_medium"
+            },
+            "edu3": {
+                "title": "Advanced TypeScript",
+                "institution": "Online Learning Platform",
+                "period": "2022",
+                "description": "Completed an in-depth course on TypeScript, focusing on advanced types, generics, and best practices for large-scale applications.",
+                "type": "course",
+                "certificateLink": ""
+            },
+            "edu4": {
+                "title": "Certified Next.js Developer",
+                "institution": "Next.js Official Certification",
+                "period": "Issued 2023",
+                "description": "Validated expertise in developing high-performance web applications with Next.js.",
+                "type": "certification",
+                "certificateLink": "https://www.credential.net/4774f926-8235-4d89-a746-2539cc487bd5#acc.2sEwCASO"
+            }
+        },
+        "viewCertificateButton": "View Certificate"
     }
 }

@@ -94,5 +94,49 @@
         },
         "showMoreButton": "Mostrar Mais",
         "showLessButton": "Mostrar Menos"
+    },
+    "educationSection": {
+        "title": "Formação & Certificações",
+        "type": {
+            "degree": "Graduação",
+            "bootcamp": "Bootcamp",
+            "course": "Curso",
+            "certification": "Certificação"
+        },
+        "items": {
+            "edu1": {
+                "title": "Bacharelado em Ciência da Computação",
+                "institution": "Universidade de Tecnologia",
+                "period": "2016 - 2020",
+                "description": "Foco em desenvolvimento de software, algoritmos e estruturas de dados. Projeto de final de ano sobre segurança de aplicações web.",
+                "type": "degree",
+                "certificateLink": ""
+            },
+            "edu2": {
+                "title": "Bootcamp de Desenvolvimento Web Full-Stack",
+                "institution": "Academia Dev",
+                "period": "2021 (3 meses)",
+                "description": "Treinamento intensivo cobrindo HTML, CSS, JavaScript, React, Node.js e gerenciamento de banco de dados. Construí diversos projetos full-stack.",
+                "type": "bootcamp",
+                "certificateLink": "https://aulas.cubos.academy/certificado/583dd33e-0be0-4169-a16b-fe9ecbafe92d?utm_medium"
+            },
+            "edu3": {
+                "title": "TypeScript Avançado",
+                "institution": "Plataforma de Aprendizagem Online",
+                "period": "2022",
+                "description": "Curso aprofundado sobre TypeScript, com foco em tipos avançados, genéricos e melhores práticas para aplicações de grande escala.",
+                "type": "course",
+                "certificateLink": ""
+            },
+            "edu4": {
+                "title": "Desenvolvedor Next.js Certificado",
+                "institution": "Certificação Oficial Next.js",
+                "period": "Emitido em 2023",
+                "description": "Expertise validada no desenvolvimento de aplicações web de alta performance com Next.js.",
+                "type": "certification",
+                "certificateLink": "https://www.credential.net/4774f926-8235-4d89-a746-2539cc487bd5#acc.2sEwCASO"
+            }
+        },
+        "viewCertificateButton": "Ver Certificado"
     }
 }
