@@ -5,6 +5,7 @@ import { ProjectsSection } from '@/components/ProjectsSection';
 import { AboutSection } from '@/components/AboutSection';
 import { ExperienceSection } from '@/components/ExperienceSection';
 import { EducationSection } from '@/components/EducationSection';
+import { ContactSection } from '@/components/ContactSection';
 import { useEffect, useState } from "react";
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
       <AboutSection />
       <ExperienceSection />
       <EducationSection />
+      <ContactSection />
     </main>
   );
 }

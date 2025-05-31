@@ -68,7 +68,7 @@ export default function Header() {
                             </Link>
                         </NavigationMenuItem>
                         <NavigationMenuItem>
-                            <Link href="/contact" className={cn(navigationMenuTriggerStyle(), "text-foreground hover:text-primary transition-colors")}>
+                            <Link href="/#contact" className={cn(navigationMenuTriggerStyle(), "text-foreground hover:text-primary transition-colors")}>
                                 {t("nav.contact")}
                             </Link>
                         </NavigationMenuItem>

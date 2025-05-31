@@ -138,5 +138,25 @@
             }
         },
         "viewCertificateButton": "Ver Certificado"
+    },
+    "contactSection": {
+        "title": "Entre em Contato",
+        "subtitle": "Estou atualmente buscando novas oportunidades. Seja para tirar uma dúvida ou apenas dizer olá, sinta-se à vontade para entrar em contato!",
+        "email": "Seu Email",
+        "linkedin": "Perfil do LinkedIn",
+        "github": "Perfil do GitHub",
+        "whatsapp": "WhatsApp",
+        "emailAction": "Enviar um Email",
+        "linkedinAction": "Ver LinkedIn",
+        "githubAction": "Ver GitHub",
+        "whatsappAction": "Conversar no WhatsApp",
+        "formTitle": "Ou Envie uma Mensagem Diretamente",
+        "formNameLabel": "Seu Nome",
+        "formNamePlaceholder": "Digite seu nome",
+        "formEmailLabel": "Seu Email",
+        "formEmailPlaceholder": "Digite seu endereço de email",
+        "formMessageLabel": "Sua Mensagem",
+        "formMessagePlaceholder": "O que você gostaria de dizer?",
+        "formSubmitButton": "Enviar via WhatsApp"
     }
 }

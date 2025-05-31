@@ -138,5 +138,25 @@
             }
         },
         "viewCertificateButton": "View Certificate"
+    },
+    "contactSection": {
+        "title": "Get in Touch",
+        "subtitle": "I'm currently looking for new opportunities. Whether you have a question or just want to say hi, feel free to reach out!",
+        "email": "Your Email",
+        "linkedin": "LinkedIn Profile",
+        "github": "GitHub Profile",
+        "whatsapp": "WhatsApp",
+        "emailAction": "Send an Email",
+        "linkedinAction": "View LinkedIn",
+        "githubAction": "View GitHub",
+        "whatsappAction": "Chat on WhatsApp",
+        "formTitle": "Or Send Me a Message Directly",
+        "formNameLabel": "Your Name",
+        "formNamePlaceholder": "Enter your name",
+        "formEmailLabel": "Your Email",
+        "formEmailPlaceholder": "Enter your email address",
+        "formMessageLabel": "Your Message",
+        "formMessagePlaceholder": "What would you like to say?",
+        "formSubmitButton": "Send via WhatsApp"
     }
 }
