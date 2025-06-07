@@ -14,13 +14,13 @@ import {
 } from "@/components/ui/dialog";
 import { motion } from 'framer-motion';
 import { useState } from 'react';
-import { X } from 'lucide-react';
+import { X, ExternalLink } from 'lucide-react';
 import Image from 'next/image';
 
 // Re-using the projectItems from Header for now
 // Consider moving this to a shared location or a dedicated data file later
 const projectItems = [
-    { id: "project1", href: "/projects/project1", imageSrc: "https://via.placeholder.com/400x200?text=Project+1", width: 400, height: 200 },
+    { id: "finestFlights", href: "https://finestflights.com/", imageSrc: "https://xl7064gpfgvoyo7p.public.blob.vercel-storage.com/finest-flights-home-iFUS4UaShmlbYHYht6CLK8Hm77cSju", width: 1200, height: 630 },
     { id: "project2", href: "/projects/project2", imageSrc: "https://via.placeholder.com/400x200?text=Project+2", width: 400, height: 200 },
     { id: "project3", href: "/projects/project3", imageSrc: "https://via.placeholder.com/400x200?text=Project+3", width: 400, height: 200 },
     { id: "project4", href: "/projects/project4", imageSrc: "https://via.placeholder.com/400x200?text=Project+4", width: 400, height: 200 },
@@ -71,7 +71,7 @@ export function ProjectsSection() {
                                     {tHeader(`projects.${project.id}.title`)}
                                 </CardTitle>
                                 <CardDescription className="text-left text-muted-foreground">
-                                    {tHeader(`projects.${project.id}.description`)}
+                                    {tHeader(`projects.${project.id}.shortDescription`)}
                                 </CardDescription>
                             </CardContent>
                             <CardFooter className="p-6 pt-0">
@@ -92,7 +92,7 @@ export function ProjectsSection() {
                                                     {tHeader(`projects.${selectedProject.id}.title`)}
                                                 </DialogTitle>
                                             </DialogHeader>
-                                            <div className="px-6 max-h-[calc(70vh-theme(spacing.24))] overflow-y-auto">
+                                            <div className="px-6 pb-6 max-h-[calc(70vh-theme(spacing.24))] overflow-y-auto">
                                                 <div className="my-4 relative w-full max-h-[40vh]">
                                                     <Image
                                                         src={selectedProject.imageSrc}
@@ -105,8 +105,16 @@ export function ProjectsSection() {
                                                     />
                                                 </div>
                                                 <DialogDescription className="text-left text-md text-muted-foreground mb-4">
-                                                    {tHeader(`projects.${selectedProject.id}.description`)}
+                                                    {tHeader(`projects.${selectedProject.id}.fullDescription`)}
                                                 </DialogDescription>
+                                                <div className="flex justify-start">
+                                                    <Button asChild>
+                                                        <a href={selectedProject.href} target="_blank" rel="noopener noreferrer" className="inline-flex items-center">
+                                                            {t('viewLiveSiteButton')}
+                                                            <ExternalLink className="w-4 h-4 ml-2" />
+                                                        </a>
+                                                    </Button>
+                                                </div>
                                             </div>
                                             <DialogClose className="absolute right-4 top-4 rounded-sm opacity-70 ring-offset-background transition-opacity hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:pointer-events-none data-[state=open]:bg-accent data-[state=open]:text-muted-foreground">
                                                 <X className="h-4 w-4" />

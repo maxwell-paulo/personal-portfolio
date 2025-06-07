@@ -12,21 +12,25 @@
             "contact": "Contato"
         },
         "projects": {
-            "project1": {
-                "title": "Projeto 1",
-                "description": "Descrição do Projeto 1."
+            "finestFlights": {
+                "title": "Finest Flights",
+                "shortDescription": "Desenvolvimento e manutenção do front-end para um site de venda de passagens aéreas usando Next.js, TypeScript e Tailwind CSS.",
+                "fullDescription": "Desenvolvi o front-end completo para o site da Finest Flights, uma empresa de venda de passagens aéreas. Continuo a prestar serviços de manutenção e desenvolvimento de novas funcionalidades. O projeto utiliza Next.js, TypeScript e Tailwind CSS."
             },
             "project2": {
                 "title": "Projeto 2",
-                "description": "Descrição do Projeto 2."
+                "shortDescription": "Um breve resumo do Projeto 2.",
+                "fullDescription": "Descrição do Projeto 2."
             },
             "project3": {
                 "title": "Projeto 3",
-                "description": "Descrição do Projeto 3."
+                "shortDescription": "Um breve resumo do Projeto 3.",
+                "fullDescription": "Descrição do Projeto 3."
             },
             "project4": {
                 "title": "Projeto 4",
-                "description": "Descrição do Projeto 4."
+                "shortDescription": "Um breve resumo do Projeto 4.",
+                "fullDescription": "Descrição do Projeto 4."
             }
         }
     },
@@ -43,7 +47,8 @@
     },
     "projectsSection": {
         "title": "Meus Projetos",
-        "viewProjectButton": "Ver Projeto"
+        "viewProjectButton": "Ver Projeto",
+        "viewLiveSiteButton": "Ver site ao vivo"
     },
     "aboutSection": {
         "title": "Sobre Mim",
