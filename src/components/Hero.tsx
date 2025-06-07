@@ -2,11 +2,19 @@
 
 import { useTranslations } from 'next-intl';
 import { Button } from '@/components/ui/button';
-import Link from 'next/link';
 import { motion } from 'framer-motion';
+import React from 'react';
 
 export function Hero() {
     const t = useTranslations('hero');
+
+    const handleScroll = (e: React.MouseEvent<HTMLButtonElement>, id: string) => {
+        e.preventDefault();
+        const element = document.getElementById(id);
+        if (element) {
+            element.scrollIntoView({ behavior: "smooth" });
+        }
+    };
 
     const textVariants = {
         hidden: { opacity: 0, y: 20 },
@@ -67,18 +75,14 @@ export function Hero() {
                     className="flex flex-col sm:flex-row items-center justify-center gap-4"
                 >
                     <motion.div variants={buttonVariants} className="w-60 sm:w-auto">
-                        <Link href="/#projects" passHref>
-                            <Button size="lg" className="text-lg px-8 py-6 w-full">
-                                {t('ctaButton')}
-                            </Button>
-                        </Link>
+                        <Button size="lg" className="text-lg px-8 py-6 w-full" onClick={(e) => handleScroll(e, 'projects')}>
+                            {t('ctaButton')}
+                        </Button>
                     </motion.div>
                     <motion.div variants={buttonVariants} className="w-60 sm:w-auto">
-                        <Link href="/contact" passHref>
-                            <Button variant="outline" size="lg" className="text-lg px-8 py-6 w-full">
-                                {t('ctaContactButton')}
-                            </Button>
-                        </Link>
+                        <Button variant="outline" size="lg" className="text-lg px-8 py-6 w-full" onClick={(e) => handleScroll(e, 'contact')}>
+                            {t('ctaContactButton')}
+                        </Button>
                     </motion.div>
                 </motion.div>
             </div>
