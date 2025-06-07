@@ -22,15 +22,15 @@
                 "shortDescription": "Desenvolvi um site moderno para uma empresa de soluções de piso sediada nos EUA, usando React e Tailwind CSS.",
                 "fullDescription": "Construí o site para a The Interior Edge, uma empresa norte-americana consolidada e especializada em soluções de pisos para grandes construtoras. O projeto foi desenvolvido com React e Tailwind CSS, focando em um design limpo para apresentar seus serviços e portfólio."
             },
-            "project3": {
-                "title": "Projeto 3",
-                "shortDescription": "Um breve resumo do Projeto 3.",
-                "fullDescription": "Descrição do Projeto 3."
+            "coffeeShopTiaRosa": {
+                "title": "Coffee Shops Tia Rosa",
+                "shortDescription": "Uma presença digital para uma cafeteria local, apresentando seu cardápio, equipe e localização, construído com Next.js e TypeScript.",
+                "fullDescription": "Desenvolvi um site completo para a Coffee Shops Tia Rosa para estabelecer sua presença digital. O site apresenta seu cardápio, equipe e localização, proporcionando um espaço online acolhedor para os clientes. Este projeto foi construído usando Next.js e TypeScript, com foco na criação de uma experiência de usuário calorosa e convidativa."
             },
-            "project4": {
-                "title": "Projeto 4",
-                "shortDescription": "Um breve resumo do Projeto 4.",
-                "fullDescription": "Descrição do Projeto 4."
+            "personalPortfolio": {
+                "title": "Portfólio Pessoal",
+                "shortDescription": "Meu portfólio pessoal para apresentar meus projetos e habilidades, construído com Next.js, TypeScript e Framer Motion.",
+                "fullDescription": "Este é o portfólio que você está navegando. Eu o desenvolvi para mostrar meu trabalho, experiência profissional e habilidades técnicas de uma forma moderna e interativa. O projeto foi construído com Next.js, TypeScript, Tailwind CSS para estilização, Framer Motion para animações e next-intl para internacionalização."
             }
         }
     },

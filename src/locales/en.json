@@ -22,15 +22,15 @@
                 "shortDescription": "Developed a modern website for a US-based flooring solutions company using React and Tailwind CSS.",
                 "fullDescription": "I built the website for The Interior Edge, a well-established US company specializing in flooring solutions for large builders. The project was developed using React and Tailwind CSS, focusing on a clean design to showcase their services and portfolio."
             },
-            "project3": {
-                "title": "Project 3",
-                "shortDescription": "A brief summary of Project 3.",
-                "fullDescription": "Project 3 Description."
+            "coffeeShopTiaRosa": {
+                "title": "Coffee Shops Tia Rosa",
+                "shortDescription": "A digital presence for a local coffee shop, featuring its menu, team, and location, built with Next.js and TypeScript.",
+                "fullDescription": "I developed a complete website for Coffee Shops Tia Rosa to establish their digital presence. The site showcases their menu, team, and location, providing a welcoming online space for customers. This project was built using Next.js and TypeScript, focusing on creating a warm and inviting user experience."
             },
-            "project4": {
-                "title": "Project 4",
-                "shortDescription": "A brief summary of Project 4.",
-                "fullDescription": "Project 4 Description."
+            "personalPortfolio": {
+                "title": "Personal Portfolio",
+                "shortDescription": "My personal portfolio to showcase my projects and skills, built with Next.js, TypeScript, and Framer Motion.",
+                "fullDescription": "This is the very portfolio you are browsing. I developed it to showcase my work, professional experience, and technical skills in a modern and interactive way. The project is built with Next.js, TypeScript, Tailwind CSS for styling, Framer Motion for animations, and next-intl for internationalization."
             }
         }
     },
