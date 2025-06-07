@@ -14,28 +14,28 @@
         "projects": {
             "finestFlights": {
                 "title": "Finest Flights",
-                "shortDescription": "Front-end development and maintenance for an airline ticket sales website using Next.js, TypeScript, and Tailwind CSS.",
-                "fullDescription": "I developed the entire front-end for the Finest Flights website, an airline ticket sales company. I continue to provide maintenance and develop new features for the platform, which is built with Next.js, TypeScript, and Tailwind CSS."
+                "shortDescription": "Responsive front-end solution for an airline ticket sales platform, ensuring a seamless booking experience on any device.",
+                "fullDescription": "Developed and maintain a high-performance, responsive front-end for Finest Flights, a global airline ticket company. The solution, built with Next.js and TypeScript, provides a seamless user experience, driving ticket sales and customer satisfaction. Ongoing work includes developing new features to meet evolving market demands."
             },
             "theInteriorEdge": {
                 "title": "The Interior Edge",
-                "shortDescription": "Developed a modern website for a US-based flooring solutions company using React and Tailwind CSS.",
-                "fullDescription": "I built the website for The Interior Edge, a well-established US company specializing in flooring solutions for large builders. The project was developed using React and Tailwind CSS, focusing on a clean design to showcase their services and portfolio."
+                "shortDescription": "Elegant and responsive portfolio website to showcase high-end flooring solutions, driving leads from large builders.",
+                "fullDescription": "Created a visually stunning and fully responsive website for The Interior Edge, a leader in flooring solutions. The site effectively showcases their extensive portfolio to major construction companies, generating qualified leads. Built with React, the solution provides a clean, modern, and professional online presence that reflects the quality of their work."
             },
             "coffeeShopTiaRosa": {
                 "title": "Coffee Shops Tia Rosa",
-                "shortDescription": "A digital presence for a local coffee shop, featuring its menu, team, and location, built with Next.js and TypeScript.",
-                "fullDescription": "I developed a complete website for Coffee Shops Tia Rosa to establish their digital presence. The site showcases their menu, team, and location, providing a welcoming online space for customers. This project was built using Next.js and TypeScript, focusing on creating a warm and inviting user experience."
+                "shortDescription": "Engaging and responsive website to boost a local coffee shop's digital presence and attract more customers.",
+                "fullDescription": "Developed a charming and responsive website to help Coffee Shops Tia Rosa connect with its community online. The platform effectively showcases their menu, location, and unique story, creating an inviting digital experience that drives foot traffic and builds customer loyalty. Built with Next.js, the site is fast, accessible, and easy to manage."
             },
             "personalPortfolio": {
                 "title": "Personal Portfolio",
-                "shortDescription": "My personal portfolio to showcase my projects and skills, built with Next.js, TypeScript, and Framer Motion.",
-                "fullDescription": "This is the very portfolio you are browsing. I developed it to showcase my work, professional experience, and technical skills in a modern and interactive way. The project is built with Next.js, TypeScript, Tailwind CSS for styling, Framer Motion for animations, and next-intl for internationalization."
+                "shortDescription": "A responsive personal portfolio to showcase my skills and successfully attract freelance and full-time opportunities.",
+                "fullDescription": "This is the very portfolio you are browsing. I developed it as a practical demonstration of my technical abilities and design sense. The fully responsive and interactive experience is built to attract clients and employers by showcasing my work effectively. The tech stack includes Next.js, TypeScript, Tailwind CSS, Framer Motion for smooth animations, and next-intl for internationalization."
             },
             "sertanejoMadeiras": {
                 "title": "Sertanejo Madeiras",
-                "shortDescription": "A straightforward website for a lumber company specializing in treated eucalyptus, built with React.",
-                "fullDescription": "I developed the website for Sertanejo Madeiras, a company specializing in treated eucalyptus. Following the client's request for simplicity, the site was built using React to be a direct and effective online catalog of their products and services."
+                "shortDescription": "A clean, responsive, and easy-to-navigate product catalog for a lumber company, delivering on the client's vision for simplicity.",
+                "fullDescription": "Delivered a clean and effective online presence for Sertanejo Madeiras, focusing on a simple and direct user experience as requested by the client. The responsive website, built with React, functions as a digital catalog, making it easy for customers to find product information, which has led to an increase in sales inquiries."
             }
         }
     },
