@@ -19,7 +19,7 @@ export function Hero() {
     };
 
     return (
-        <section className="container mx-auto flex flex-col items-center justify-center text-center py-10">
+        <section id="home" className="container mx-auto flex flex-col items-center justify-center text-center py-10">
             <div className="max-w-3xl">
                 <motion.p
                     initial="hidden"

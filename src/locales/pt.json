@@ -2,9 +2,13 @@
     "header": {
         "title": "Maxwell Paulo",
         "nav": {
+            "title": "Navegação Principal",
+            "description": "Uma lista de links para navegar no site.",
             "home": "Início",
             "projects": "Projetos",
             "about": "Sobre",
+            "experience": "Experiência",
+            "education": "Formação",
             "contact": "Contato"
         },
         "projects": {
