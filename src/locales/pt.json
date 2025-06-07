@@ -31,6 +31,11 @@
                 "title": "Portfólio Pessoal",
                 "shortDescription": "Meu portfólio pessoal para apresentar meus projetos e habilidades, construído com Next.js, TypeScript e Framer Motion.",
                 "fullDescription": "Este é o portfólio que você está navegando. Eu o desenvolvi para mostrar meu trabalho, experiência profissional e habilidades técnicas de uma forma moderna e interativa. O projeto foi construído com Next.js, TypeScript, Tailwind CSS para estilização, Framer Motion para animações e next-intl para internacionalização."
+            },
+            "sertanejoMadeiras": {
+                "title": "Sertanejo Madeiras",
+                "shortDescription": "Um site direto para uma madeireira especializada em eucalipto tratado, construído com React.",
+                "fullDescription": "Desenvolvi o site para a Sertanejo Madeiras, uma empresa especializada em eucalipto tratado. Atendendo ao pedido do cliente por simplicidade, o site foi construído em React para ser um catálogo online direto e eficaz de seus produtos e serviços."
             }
         }
     },

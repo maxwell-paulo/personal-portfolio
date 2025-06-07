@@ -31,6 +31,11 @@
                 "title": "Personal Portfolio",
                 "shortDescription": "My personal portfolio to showcase my projects and skills, built with Next.js, TypeScript, and Framer Motion.",
                 "fullDescription": "This is the very portfolio you are browsing. I developed it to showcase my work, professional experience, and technical skills in a modern and interactive way. The project is built with Next.js, TypeScript, Tailwind CSS for styling, Framer Motion for animations, and next-intl for internationalization."
+            },
+            "sertanejoMadeiras": {
+                "title": "Sertanejo Madeiras",
+                "shortDescription": "A straightforward website for a lumber company specializing in treated eucalyptus, built with React.",
+                "fullDescription": "I developed the website for Sertanejo Madeiras, a company specializing in treated eucalyptus. Following the client's request for simplicity, the site was built using React to be a direct and effective online catalog of their products and services."
             }
         }
     },
