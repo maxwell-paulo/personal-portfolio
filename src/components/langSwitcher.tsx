@@ -10,8 +10,6 @@ import {
 import { useTranslations } from 'next-intl';
 
 import { useLocaleStore } from "@/providers/use-locale-store"
-import brFlag from '../assets/images/br.png';
-import usFlag from '../assets/images/en.png';
 
 export function LangSwitcher() {
     const { locale, setLocale } = useLocaleStore()
@@ -36,7 +34,7 @@ export function LangSwitcher() {
                         className={`size-9 rounded-full transition-opacity ${locale !== "pt" ? "opacity-50" : ""} data-[state=on]:rounded-full dark:data-[state=on]:bg-primary dark:data-[state=on]:text-primary-foreground`}
                     >
                         <Avatar className="size-7">
-                            <AvatarImage fetchPriority="high" src={brFlag.src} />
+                            <AvatarImage fetchPriority="high" src="https://xl7064gpfgvoyo7p.public.blob.vercel-storage.com/br.png" />
                             <AvatarFallback>PT</AvatarFallback>
                         </Avatar>
                     </ToggleGroupItem>
@@ -47,7 +45,7 @@ export function LangSwitcher() {
                         className={`size-9 rounded-full transition-opacity ${locale !== "en" ? "opacity-50" : ""} data-[state=on]:rounded-full dark:data-[state=on]:bg-primary dark:data-[state=on]:text-primary-foreground`}
                     >
                         <Avatar className="size-7">
-                            <AvatarImage fetchPriority="high" src={usFlag.src} />
+                            <AvatarImage fetchPriority="high" src="https://xl7064gpfgvoyo7p.public.blob.vercel-storage.com/en-T9dHFkoCeLmayJhUTB62laKL7w3hoN.png" />
                             <AvatarFallback>EN</AvatarFallback>
                         </Avatar>
                     </ToggleGroupItem>
