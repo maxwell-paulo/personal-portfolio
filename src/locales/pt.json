@@ -17,10 +17,10 @@
                 "shortDescription": "Desenvolvimento e manutenção do front-end para um site de venda de passagens aéreas usando Next.js, TypeScript e Tailwind CSS.",
                 "fullDescription": "Desenvolvi o front-end completo para o site da Finest Flights, uma empresa de venda de passagens aéreas. Continuo a prestar serviços de manutenção e desenvolvimento de novas funcionalidades. O projeto utiliza Next.js, TypeScript e Tailwind CSS."
             },
-            "project2": {
-                "title": "Projeto 2",
-                "shortDescription": "Um breve resumo do Projeto 2.",
-                "fullDescription": "Descrição do Projeto 2."
+            "theInteriorEdge": {
+                "title": "The Interior Edge",
+                "shortDescription": "Desenvolvi um site moderno para uma empresa de soluções de piso sediada nos EUA, usando React e Tailwind CSS.",
+                "fullDescription": "Construí o site para a The Interior Edge, uma empresa norte-americana consolidada e especializada em soluções de pisos para grandes construtoras. O projeto foi desenvolvido com React e Tailwind CSS, focando em um design limpo para apresentar seus serviços e portfólio."
             },
             "project3": {
                 "title": "Projeto 3",
