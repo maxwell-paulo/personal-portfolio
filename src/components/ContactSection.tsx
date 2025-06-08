@@ -15,14 +15,7 @@ import React, { useState } from 'react';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Label } from '@/components/ui/label';
-
-// REPLACE WITH YOUR ACTUAL DATA
-const contactDetails = {
-    email: "your.email@example.com",
-    linkedinUrl: "https://linkedin.com/in/yourprofile",
-    githubUrl: "https://github.com/yourusername",
-    whatsappNumber: "YOUR_WHATSAPP_NUMBER", // <-- REPLACE THIS!
-};
+import { contactDetails } from '@/data';
 
 // Renamed and refactored from ContactCard
 interface ContactLinkItemProps {
@@ -118,23 +111,23 @@ export function ContactSection() {
             >
                 <ContactLinkItem
                     IconComponent={IoMailOutline}
-                    title={t('email')} // Using the direct translation for email label
+                    title={t('emailAction')}
                     href={contactDetails.email}
                     isMail
                 />
                 <ContactLinkItem
                     IconComponent={SiLinkedin}
-                    title={t('linkedin')} // Using direct translation for LinkedIn label
+                    title={t('linkedinAction')}
                     href={contactDetails.linkedinUrl}
                 />
                 <ContactLinkItem
                     IconComponent={SiGithub}
-                    title={t('github')} // Using direct translation for GitHub label
+                    title={t('githubAction')}
                     href={contactDetails.githubUrl}
                 />
                 <ContactLinkItem
                     IconComponent={SiWhatsapp}
-                    title={t('whatsapp')} // Using direct translation for WhatsApp label
+                    title={t('whatsappAction')}
                     href={contactDetails.whatsappNumber}
                     isWhatsApp
                 />
