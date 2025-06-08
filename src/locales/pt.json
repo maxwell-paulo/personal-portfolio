@@ -71,8 +71,8 @@
     },
     "aboutSection": {
         "title": "Sobre Mim",
-        "paragraph1": "Olá! Sou Maxwell Paulo, um Desenvolvedor Front-End apaixonado por criar experiências web intuitivas, dinâmicas e de alta performance. Com um olhar atento para o design e uma base sólida em tecnologias web modernas, busco construir aplicações que não apenas tenham uma ótima aparência, mas também proporcionem uma jornada de usuário fluida.",
-        "paragraph2": "Minha jornada no desenvolvimento web é impulsionada por um desejo constante de aprender e me adaptar ao cenário digital em constante evolução. Gosto de enfrentar desafios complexos e transformar ideias em soluções tangíveis e impactantes.",
+        "paragraph1": "Olá! Sou Maxwell Paulo, um Desenvolvedor de Software apaixonado por construir soluções digitais que unem criatividade e performance. Com uma formação em Publicidade e quase uma década de experiência como professor, desenvolvi uma habilidade única para comunicação e para entender as pessoas — competências que hoje são o alicerce para transformar as necessidades dos meus clientes em produtos intuitivos e eficazes. A mesma disciplina que me fez saltar de aviões como paraquedista é a que aplico para superar desafios complexos no desenvolvimento.",
+        "paragraph2": "Minha transição para a tecnologia foi impulsionada por uma busca contínua por crescimento. Aprofundei meus conhecimentos em bootcamps de ponta como Ironhack e Cubos Academy e sigo me especializando em Análise e Desenvolvimento de Sistemas. Com experiência prática em startups, projetos internacionais e como freelancer, trabalhei com tecnologias como React, Next.js, TypeScript, Python e Django. Estou sempre pronto para aplicar essa versatilidade e dedicação para dar vida à sua próxima grande ideia. Vamos conversar?",
         "skillsTitle": "Tecnologias com que Trabalho"
     },
     "experienceSection": {

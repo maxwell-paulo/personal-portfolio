@@ -71,8 +71,8 @@
     },
     "aboutSection": {
         "title": "About Me",
-        "paragraph1": "Hello! I'm Maxwell Paulo, a passionate Front-End Developer dedicated to creating intuitive, dynamic, and high-performance web experiences. With a keen eye for design and a strong foundation in modern web technologies, I strive to build applications that not only look great but also provide a seamless user journey.",
-        "paragraph2": "My journey in web development is driven by a constant desire to learn and adapt to the ever-evolving digital landscape. I enjoy tackling complex challenges and transforming ideas into tangible, impactful solutions.",
+        "paragraph1": "Hello! I'm Maxwell Paulo, a Software Developer passionate about building digital solutions that merge creativity with performance. With a degree in Advertising and nearly a decade of experience as a teacher, I developed a unique skill for communication and understanding people—competencies that are now the foundation for translating my clients' needs into intuitive and effective products. The same discipline that led me to jump out of planes as a skydiver is what I apply to overcome complex development challenges.",
+        "paragraph2": "My transition into tech was driven by a continuous quest for growth. I deepened my knowledge in top-tier bootcamps like Ironhack and Cubos Academy and continue to specialize with a degree in Analysis and Systems Development. With hands-on experience in startups, international projects, and freelance work, I've worked with technologies like React, Next.js, TypeScript, Python, and Django. I'm always ready to apply this versatility and dedication to bring your next big idea to life. Shall we talk?",
         "skillsTitle": "Technologies I Work With"
     },
     "experienceSection": {
