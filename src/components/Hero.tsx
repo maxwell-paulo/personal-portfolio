@@ -12,6 +12,13 @@ export function Hero() {
         e.preventDefault();
         const element = document.getElementById(id);
         if (element) {
+            if (id === 'contact') {
+                const formElement = document.getElementById('contact-form');
+                if (formElement) {
+                    formElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    return; // Exit after scrolling to form
+                }
+            }
             element.scrollIntoView({ behavior: "smooth" });
         }
     };

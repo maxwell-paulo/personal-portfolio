@@ -34,7 +34,15 @@ export default function Header() {
             // If on the home page, scroll smoothly.
             const element = document.getElementById(id);
             if (element) {
-                element.scrollIntoView({ behavior: "smooth" });
+                const scrollOptions: ScrollIntoViewOptions = { behavior: "smooth" };
+                if (id === 'contact') {
+                    const formElement = document.getElementById('contact-form');
+                    if (formElement) {
+                        formElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    }
+                    return;
+                }
+                element.scrollIntoView(scrollOptions);
             }
         }
     };

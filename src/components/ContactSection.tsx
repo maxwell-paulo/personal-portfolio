@@ -140,7 +140,7 @@ export function ContactSection() {
                 />
             </motion.div>
 
-            <motion.div variants={itemVariants} className="max-w-2xl mx-auto">
+            <motion.div id="contact-form" variants={itemVariants} className="max-w-2xl mx-auto">
                 <h3 className="text-2xl md:text-3xl font-semibold mb-8">{t('formTitle')}</h3>
                 <form onSubmit={handleSubmit} className="space-y-6 text-left">
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
