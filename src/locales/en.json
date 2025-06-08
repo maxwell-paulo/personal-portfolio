@@ -55,6 +55,20 @@
         "viewProjectButton": "View Project",
         "viewLiveSiteButton": "View Live Site"
     },
+    "callToContact": {
+        "cta1": {
+            "text": "Enjoyed my work or have an idea you'd like to discuss?",
+            "button": "Let's Connect"
+        },
+        "cta2": {
+            "text": "Ready to take the next step? I'm here to help.",
+            "button": "Get in Touch"
+        },
+        "cta3": {
+            "text": "Have a project in mind? Let's build something great together.",
+            "button": "Start a Conversation"
+        }
+    },
     "aboutSection": {
         "title": "About Me",
         "paragraph1": "Hello! I'm Maxwell Paulo, a passionate Front-End Developer dedicated to creating intuitive, dynamic, and high-performance web experiences. With a keen eye for design and a strong foundation in modern web technologies, I strive to build applications that not only look great but also provide a seamless user journey.",
