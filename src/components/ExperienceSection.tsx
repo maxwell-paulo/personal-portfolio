@@ -4,7 +4,7 @@ import { useTranslations } from 'next-intl';
 import { motion, AnimatePresence } from 'framer-motion';
 // import { Badge } from '@/components/ui/badge'; // Will be replaced by icons
 import { Briefcase, ChevronDown, ChevronUp } from 'lucide-react';
-import { getTechnologyByName } from '@/data/technologies'; // Import shared tech data, Technology interface not directly needed here
+import { getTechnologyByName, experienceDataKeys, experienceTechnologies } from '@/data'; // Import shared tech data, Technology interface not directly needed here
 import {
     Tooltip,
     TooltipContent,
@@ -24,18 +24,6 @@ interface ExperienceItem {
     typeKey: 'fullTime' | 'internship' | 'freelance'; // Key for translated type
     technologies: string[];
 }
-
-// Sample data - ideally this comes from a CMS or dedicated data file
-// For now, we'll use the keys from the locale files to fetch translated content.
-const experienceDataKeys = ["exp1", "exp2", "exp3", "exp4", "exp5"];
-
-const experienceTechnologies: Record<string, string[]> = {
-    exp1: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Redux", "Jest"],
-    exp2: ["HTML", "CSS", "JavaScript", "Git", "jQuery"],
-    exp3: ["Python", "Django", "Postgres", "Rest API"],
-    exp4: ["React Native", "Firebase", "JavaScript"],
-    exp5: ["Vue.js", "Nuxt.js", "GraphQL"]
-};
 
 const INITIAL_ITEMS_TO_SHOW = 3;
 
@@ -108,32 +96,36 @@ export function ExperienceSection() {
                                         <p className="text-muted-foreground text-sm md:text-base mb-4 whitespace-pre-line">
                                             {exp.description}
                                         </p>
-                                        <h4 className="text-sm font-semibold text-foreground mb-2">{t('technologiesUsed')}</h4>
-                                        <div className="flex flex-wrap gap-3 items-center">
-                                            {exp.technologies.map(techName => {
-                                                const techDetail = getTechnologyByName(techName);
-                                                if (techDetail) {
-                                                    return (
-                                                        <Tooltip key={techDetail.name} delayDuration={100}>
-                                                            <TooltipTrigger asChild>
-                                                                <motion.div className="cursor-pointer">
-                                                                    <techDetail.IconComponent size={24} className="text-muted-foreground hover:text-foreground transition-colors" />
-                                                                </motion.div>
-                                                            </TooltipTrigger>
-                                                            <TooltipContent>
-                                                                <p>{techDetail.name}</p>
-                                                            </TooltipContent>
-                                                        </Tooltip>
-                                                    );
-                                                }
-                                                // Fallback for technologies not in the shared list (or if you prefer to show names for some)
-                                                return (
-                                                    <span key={techName} className="text-xs px-2 py-1 bg-muted text-muted-foreground rounded-sm">
-                                                        {techName}
-                                                    </span>
-                                                );
-                                            })}
-                                        </div>
+                                        {exp.technologies.length > 0 && (
+                                            <>
+                                                <h4 className="text-sm font-semibold text-foreground mb-2">{t('technologiesUsed')}</h4>
+                                                <div className="flex flex-wrap gap-3 items-center">
+                                                    {exp.technologies.map(techName => {
+                                                        const techDetail = getTechnologyByName(techName);
+                                                        if (techDetail) {
+                                                            return (
+                                                                <Tooltip key={techDetail.name} delayDuration={100}>
+                                                                    <TooltipTrigger asChild>
+                                                                        <motion.div className="cursor-pointer">
+                                                                            <techDetail.IconComponent size={24} className="text-muted-foreground hover:text-foreground transition-colors" />
+                                                                        </motion.div>
+                                                                    </TooltipTrigger>
+                                                                    <TooltipContent>
+                                                                        <p>{techDetail.name}</p>
+                                                                    </TooltipContent>
+                                                                </Tooltip>
+                                                            );
+                                                        }
+                                                        // Fallback for technologies not in the shared list (or if you prefer to show names for some)
+                                                        return (
+                                                            <span key={techName} className="text-xs px-2 py-1 bg-muted text-muted-foreground rounded-sm">
+                                                                {techName}
+                                                            </span>
+                                                        );
+                                                    })}
+                                                </div>
+                                            </>
+                                        )}
                                     </div>
                                 </div>
                             </motion.div>
