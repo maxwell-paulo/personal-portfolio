@@ -30,11 +30,6 @@ export const technologiesList: Technology[] = [
     { name: "Rest API", IconComponent: TbApi },
     { name: "Git", IconComponent: SiGit },
     { name: "Responsive Design", IconComponent: MdImportantDevices },
-    // Add other technologies used in Experience section if not covered here
-    // For example, if "Redux" or "Jest" need icons, they should be added.
-    // For now, I will map them by name and they won't have icons if not in this list.
-    { name: "Redux", IconComponent: SiReact }, // Placeholder, replace with actual Redux icon if available
-    { name: "Jest", IconComponent: SiReact } // Placeholder, replace with actual Jest icon if available
 ];
 
 // Helper function to get technology details by name
