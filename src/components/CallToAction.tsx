@@ -24,7 +24,7 @@ export function CallToAction({ variant }: { variant: 'cta1' | 'cta2' | 'cta3' })
     const t = useTranslations('callToContact');
 
     return (
-        <section className="container mx-auto flex flex-col items-center justify-center text-center py-10 px-4">
+        <section className="container mx-auto flex flex-col items-center justify-center text-center py-4 px-4">
             <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
