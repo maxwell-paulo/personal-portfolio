@@ -17,25 +17,25 @@ const inputVariants = tv({
 });
 
 export default function ThemeSwitcher() {
-    const [theme, setStateTheme] = useState("dark");
-    const { setTheme } = useTheme();
+    const [mounted, setMounted] = useState(false);
+    const { theme, setTheme } = useTheme();
 
     useEffect(() => {
-        setTheme(theme);
-    }, [, setTheme, theme]);
+        setMounted(true);
+    }, []);
+
+    if (!mounted) {
+        return null;
+    }
 
     return (
         <div className="flex items-center justify-center">
-            <label
-                className="flex items-center cursor-pointer"
-                htmlFor="theme-toggle"
-            >
+            <label className="flex items-center cursor-pointer">
                 <div className="w-14 h-8 relative rounded-3xl bg-card border border-border shadow-sm transition-colors">
                     <input
                         type="checkbox"
-                        id="theme-toggle"
                         className="hidden"
-                        onChange={() => setStateTheme(theme === "light" ? "dark" : "light")}
+                        onChange={() => setTheme(theme === "light" ? "dark" : "light")}
                         checked={theme === "light"}
                     />
                     <div
