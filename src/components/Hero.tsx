@@ -54,7 +54,7 @@ export function Hero() {
                     animate="visible"
                     transition={{ duration: 0.5, delay: 0.6 }}
                     variants={textVariants}
-                    className="text-3xl md:text-4xl font-semibold text-foreground mb-6"
+                    className="text-3xl md:text-4xl font-semibold text-foreground mb-6 px-4 md:px-0"
                 >
                     {t('title')}
                 </motion.h2>
@@ -63,7 +63,7 @@ export function Hero() {
                     animate="visible"
                     transition={{ duration: 0.5, delay: 0.8 }}
                     variants={textVariants}
-                    className="text-md md:text-lg text-muted-foreground mb-10"
+                    className="text-md md:text-lg text-muted-foreground mb-10 px-4 md:px-0"
                 >
                     {t('subtitle')}
                 </motion.p>
