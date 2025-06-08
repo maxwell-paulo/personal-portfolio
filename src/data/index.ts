@@ -7,4 +7,5 @@ export const projectItems = [
 ];
 
 export * from './technologies';
-export * from './experience'; 
+export * from './experience';
+export * from './education'; 

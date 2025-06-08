@@ -6,6 +6,7 @@ import { GraduationCap, Award, Link as LinkIcon } from 'lucide-react'; // Added 
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import Link from 'next/link'; // For certificate links
+import { educationItemKeys } from '@/data';
 
 interface EducationItem {
     id: string;
@@ -16,8 +17,6 @@ interface EducationItem {
     type: 'degree' | 'bootcamp' | 'course' | 'certification';
     certificateLink?: string; // Optional link
 }
-
-const educationItemKeys = ["edu1", "edu2", "edu3", "edu4"];
 
 export function EducationSection() {
     const t = useTranslations('educationSection');

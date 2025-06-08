@@ -154,36 +154,36 @@
         },
         "items": {
             "edu1": {
-                "title": "Bacharelado em Ciência da Computação",
-                "institution": "Universidade de Tecnologia",
-                "period": "2016 - 2020",
-                "description": "Foco em desenvolvimento de software, algoritmos e estruturas de dados. Projeto de final de ano sobre segurança de aplicações web.",
+                "title": "Análise e Desenvolvimento de Sistemas",
+                "institution": "Centro Universitário IESB",
+                "period": "Abr 2023 - Out 2025",
+                "description": "Cursando uma graduação abrangente com foco em princípios de engenharia de software, gerenciamento de banco de dados, arquitetura de sistemas e gestão de projetos. Este programa fornece uma base teórica sólida que complementa minha experiência prática.",
                 "type": "degree",
                 "certificateLink": ""
             },
             "edu2": {
-                "title": "Bootcamp de Desenvolvimento Web Full-Stack",
-                "institution": "Academia Dev",
-                "period": "2021 (3 meses)",
-                "description": "Treinamento intensivo cobrindo HTML, CSS, JavaScript, React, Node.js e gerenciamento de banco de dados. Construí diversos projetos full-stack.",
+                "title": "Desenvolvimento de Software Backend",
+                "institution": "Cubos Academy",
+                "period": "Jun 2023 - Nov 2023",
+                "description": "Bootcamp intensivo focado no desenvolvimento do lado do servidor. Adquiri conhecimento aprofundado em Node.js, APIs REST, modelagem de banco de dados com PostgreSQL, autenticação e arquitetura de sistemas, solidificando minhas habilidades full-stack.",
                 "type": "bootcamp",
-                "certificateLink": "https://aulas.cubos.academy/certificado/583dd33e-0be0-4169-a16b-fe9ecbafe92d?utm_medium"
+                "certificateLink": ""
             },
             "edu3": {
-                "title": "TypeScript Avançado",
-                "institution": "Plataforma de Aprendizagem Online",
-                "period": "2022",
-                "description": "Curso aprofundado sobre TypeScript, com foco em tipos avançados, genéricos e melhores práticas para aplicações de grande escala.",
-                "type": "course",
+                "title": "Desenvolvimento Web Full-Stack",
+                "institution": "Ironhack",
+                "period": "Ago 2022 - Out 2022",
+                "description": "Bootcamp prático e baseado em projetos cobrindo a stack MERN (MongoDB, Express, React, Node.js). Dominei conceitos fundamentais e avançados de desenvolvimento web, desde a construção de front-ends responsivos até a criação de APIs poderosas.",
+                "type": "bootcamp",
                 "certificateLink": ""
             },
             "edu4": {
-                "title": "Desenvolvedor Next.js Certificado",
-                "institution": "Certificação Oficial Next.js",
-                "period": "Emitido em 2023",
-                "description": "Expertise validada no desenvolvimento de aplicações web de alta performance com Next.js.",
-                "type": "certification",
-                "certificateLink": "https://www.credential.net/4774f926-8235-4d89-a746-2539cc487bd5#acc.2sEwCASO"
+                "title": "Bacharelado em Publicidade e Propaganda",
+                "institution": "Centro Universitário IESB",
+                "period": "Jan 2011 - Dez 2014",
+                "description": "Esta graduação me proporcionou uma base sólida em comunicação e estratégia criativa. Aprimorou minha capacidade de entender o público-alvo e criar narrativas envolventes — habilidades que hoje são inestimáveis para projetar experiências de usuário intuitivas.",
+                "type": "degree",
+                "certificateLink": ""
             }
         },
         "viewCertificateButton": "Ver Certificado"
