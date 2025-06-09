@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Maxwell Paulo | Desenvolvedor Front-End",
-  description: "Portfólio de Maxwell Paulo - Desenvolvedor Front-End especializado em criar interfaces modernas e responsivas.",
+  title: "Maxwell Paulo | Desenvolvedor de Software",
+  description: "Portfólio de Maxwell Paulo - Desenvolvedor de Software especializado em criar interfaces modernas e responsivas.",
 };
 
 export default function RootLayout({
