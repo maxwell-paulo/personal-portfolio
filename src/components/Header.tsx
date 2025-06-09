@@ -14,6 +14,7 @@ import { LangSwitcher } from "./langSwitcher";
 import { Button } from "./ui/button";
 import { Dialog, DialogContent, DialogTrigger, DialogTitle, DialogDescription } from "./ui/dialog";
 import { Menu } from "lucide-react";
+import Image from "next/image";
 
 export default function Header() {
     const t = useTranslations("header");
@@ -58,9 +59,15 @@ export default function Header() {
         <header className="w-full py-5 px-6 border-b border-border/40 bg-background/95 backdrop-blur-sm fixed top-0 z-50 transition-all duration-200">
             <div className="container mx-auto flex items-center justify-between">
                 <div className="flex-1">
-                    <a href="#home" onClick={(e) => handleScroll(e, 'home')} className="text-xl font-bold text-foreground relative group">
-                        {t("title")}
-                        <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary group-hover:w-full transition-all duration-300"></span>
+                    <a href="#home" onClick={(e) => handleScroll(e, 'home')} className="relative group flex items-center">
+                        <Image
+                            src="https://xl7064gpfgvoyo7p.public.blob.vercel-storage.com/no-bg-ligh-blue%20%281%29-kKv2ob7Ptwon1WbelKNXQe7WBhLDYK.png"
+                            alt="Maxwell Paulo Logo"
+                            width={120}
+                            height={40}
+                            className="h-auto"
+                            priority
+                        />
                     </a>
                 </div>
 
