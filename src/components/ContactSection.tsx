@@ -6,7 +6,6 @@ import { motion } from 'framer-motion';
 import { Send } from 'lucide-react';
 import { SiLinkedin, SiGithub, SiWhatsapp } from 'react-icons/si';
 import { IoMailOutline } from 'react-icons/io5';
-import type { IconType } from 'react-icons';
 // Button is only needed for the form now
 import { Button } from '@/components/ui/button';
 // Card components are no longer used for contact items
@@ -16,15 +15,7 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Label } from '@/components/ui/label';
 import { contactDetails } from '@/data';
-
-// Renamed and refactored from ContactCard
-interface ContactLinkItemProps {
-    IconComponent: IconType;
-    title: string; // This will be the clickable text
-    href: string;
-    isMail?: boolean;
-    isWhatsApp?: boolean;
-}
+import { ContactLinkItemProps, FormData } from '@/types';
 
 const ContactLinkItem: React.FC<ContactLinkItemProps> = ({ IconComponent, title, href, isMail, isWhatsApp }) => {
     let fullHref = href;
@@ -51,12 +42,6 @@ const ContactLinkItem: React.FC<ContactLinkItemProps> = ({ IconComponent, title,
         </Link>
     );
 };
-
-interface FormData {
-    name: string;
-    email: string;
-    message: string;
-}
 
 export function ContactSection() {
     const t = useTranslations('contactSection');

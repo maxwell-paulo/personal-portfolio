@@ -7,16 +7,7 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import Link from 'next/link'; // For certificate links
 import { educationItemKeys } from '@/data';
-
-interface EducationItem {
-    id: string;
-    title: string;
-    institution: string;
-    period: string;
-    description: string;
-    type: 'degree' | 'bootcamp' | 'course' | 'certification';
-    certificateLink?: string; // Optional link
-}
+import { EducationItem } from '@/types';
 
 export function EducationSection() {
     const t = useTranslations('educationSection');

@@ -13,17 +13,7 @@ import {
 } from '@/components/ui/tooltip';
 import { Button } from '@/components/ui/button';
 import { useState } from 'react';
-
-// Define a type for individual experience items for clarity
-interface ExperienceItem {
-    id: string;
-    role: string;
-    company: string;
-    period: string;
-    description: string;
-    typeKey: 'fullTime' | 'internship' | 'freelance'; // Key for translated type
-    technologies: string[];
-}
+import { ExperienceItem } from '@/types';
 
 const INITIAL_ITEMS_TO_SHOW = 3;
 

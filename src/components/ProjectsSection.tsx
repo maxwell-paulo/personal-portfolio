@@ -17,11 +17,12 @@ import { useState } from 'react';
 import { X, ExternalLink } from 'lucide-react';
 import Image from 'next/image';
 import { projectItems } from '@/data';
+import { Project } from '@/types';
 
 export function ProjectsSection() {
     const t = useTranslations('projectsSection');
     const tHeader = useTranslations('header');
-    const [selectedProject, setSelectedProject] = useState<typeof projectItems[0] | null>(null);
+    const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
     const sectionVariants = {
         hidden: { opacity: 0 },

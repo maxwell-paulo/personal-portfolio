@@ -1,4 +1,6 @@
-export const projectItems = [
+import { Project } from '@/types';
+
+export const projectItems: Project[] = [
     { id: "finestFlights", href: "https://finestflights.com/", imageSrc: "https://xl7064gpfgvoyo7p.public.blob.vercel-storage.com/finest-flights-home-iFUS4UaShmlbYHYht6CLK8Hm77cSju", width: 1200, height: 630 },
     { id: "theInteriorEdge", href: "https://theinterioredge-sa.com/", imageSrc: "https://xl7064gpfgvoyo7p.public.blob.vercel-storage.com/the-interior-edge-home-5YkhwWvST8jKIP77GZaSnxHfkZcZUq", width: 1200, height: 630 },
     { id: "coffeeShopTiaRosa", href: "https://coffee-shop-tia-rosa-seven.vercel.app/", imageSrc: "https://xl7064gpfgvoyo7p.public.blob.vercel-storage.com/coffe-shop-tia-rosa-home-4cipUJ4Jr4nH62OMwFbTaRXi8yxOit", width: 1200, height: 630 },
