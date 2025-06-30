@@ -39,7 +39,7 @@ export function AboutSection() {
             id="about"
             initial="hidden"
             whileInView="visible"
-            viewport={{ once: true, amount: 0.25 }}
+            viewport={{ once: true, amount: 0.1 }}
             variants={sectionVariants}
             className="container mx-auto px-4 py-16 md:py-24 text-left md:text-center"
         >
