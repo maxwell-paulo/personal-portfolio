@@ -124,7 +124,7 @@ export function ExperienceSection() {
                                             {exp.roles.map((role, roleIndex) => (
                                                 <div
                                                     key={role.id}
-                                                    className={roleIndex === 0 ? '' : 'pt-5 mt-5'}
+                                                    className={`${roleIndex > 0 ? 'pt-6' : ''} ${roleIndex < exp.roles.length - 1 ? 'pb-6' : ''}`.trim()}
                                                 >
                                                     <h3 className="text-xl md:text-2xl font-semibold text-primary mb-1">{role.role}</h3>
                                                     {exp.roles.length > 1 && (
