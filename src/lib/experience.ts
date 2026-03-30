@@ -96,7 +96,7 @@ function getPeriodTimestamp(periodPart: string, boundary: 'start' | 'end') {
 function getExperienceSortValues(period: string) {
     const [startPart = '', endPart = ''] = period.split(/\s*-\s*/);
     const startDate = getPeriodTimestamp(startPart, 'start');
-    const endDate = endPart ? getPeriodTimestamp(endPart, 'end') : startDate;
+    const endDate = endPart ? getPeriodTimestamp(endPart, 'end') : getPeriodTimestamp(startPart, 'end');
 
     return { startDate, endDate };
 }
