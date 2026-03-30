@@ -84,6 +84,28 @@
             "freelance": "Freelance"
         },
         "experiences": {
+            "exp0": {
+                "company": "Assessoria Alpha",
+                "period": "Ago 2025 - Presente",
+                "type": "fullTime",
+                "roles": {
+                    "headOfTechnology": {
+                        "role": "Head de Tecnologia",
+                        "period": "Jan 2026 - Presente",
+                        "description": "Liderança da área de tecnologia, conectando estratégia de negócio à execução técnica em produtos internos, sistemas, infraestrutura e automações. Responsável pela evolução da arquitetura, fortalecimento de processos, ganho de eficiência nas entregas, melhoria da segurança e consolidação da tecnologia como um pilar estratégico para o crescimento da empresa."
+                    },
+                    "techLead": {
+                        "role": "Tech Lead",
+                        "period": "Set 2025 - Dez 2025",
+                        "description": "Atuação na liderança técnica de múltiplas iniciativas, coordenando desenvolvedores, definindo prioridades, apoiando decisões de arquitetura e garantindo qualidade nas entregas. Também mantive atuação prática no desenvolvimento, integrações, organização do fluxo técnico e evolução de produtos internos."
+                    },
+                    "fullStackDeveloper": {
+                        "role": "Desenvolvedor Full-Stack",
+                        "period": "Ago 2025 - Set 2025",
+                        "description": "Desenvolvimento de soluções full-stack para produtos e sistemas internos, atuando na construção de interfaces, APIs, integrações, regras de negócio e melhorias de performance. Participação ativa na evolução técnica da base dos produtos e no suporte a demandas estratégicas da operação."
+                    }
+                }
+            },
             "exp1": {
                 "role": "Desenvolvedor de Software Frontend",
                 "company": "Finest Solutions",

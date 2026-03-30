@@ -84,6 +84,28 @@
             "freelance": "Freelance"
         },
         "experiences": {
+            "exp0": {
+                "company": "Assessoria Alpha",
+                "period": "Aug 2025 - Present",
+                "type": "fullTime",
+                "roles": {
+                    "headOfTechnology": {
+                        "role": "Head of Technology",
+                        "period": "Jan 2026 - Present",
+                        "description": "Leading the technology area by connecting business strategy with technical execution across internal products, systems, infrastructure, and automation. Responsible for evolving architecture, strengthening processes, improving delivery efficiency, enhancing security, and positioning technology as a strategic pillar for company growth."
+                    },
+                    "techLead": {
+                        "role": "Tech Lead",
+                        "period": "Sep 2025 - Dec 2025",
+                        "description": "Provided technical leadership across multiple initiatives, coordinating developers, defining priorities, supporting architecture decisions, and ensuring delivery quality. I also remained hands-on in development, integrations, technical workflow organization, and the evolution of internal products."
+                    },
+                    "fullStackDeveloper": {
+                        "role": "Full-Stack Developer",
+                        "period": "Aug 2025 - Sep 2025",
+                        "description": "Built full-stack solutions for internal products and systems, working on interfaces, APIs, integrations, business rules, and performance improvements. Actively contributed to the technical evolution of product foundations while supporting strategic operational demands."
+                    }
+                }
+            },
             "exp1": {
                 "role": "Frontend Software Developer",
                 "company": "Finest Solutions",

@@ -8,14 +8,22 @@ export interface Project {
     height: number;
 }
 
-export interface ExperienceItem {
+export type ExperienceTypeKey = 'fullTime' | 'internship' | 'freelance';
+
+export interface ExperienceRoleItem {
     id: string;
     role: string;
-    company: string;
     period: string;
     description: string;
-    typeKey: 'fullTime' | 'internship' | 'freelance';
     technologies: string[];
+}
+
+export interface ExperienceItem {
+    id: string;
+    company: string;
+    period: string;
+    typeKey: ExperienceTypeKey;
+    roles: ExperienceRoleItem[];
 }
 
 export interface EducationItem {
