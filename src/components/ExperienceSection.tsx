@@ -2,9 +2,8 @@
 
 import { useTranslations } from 'next-intl';
 import { motion, AnimatePresence } from 'framer-motion';
-// import { Badge } from '@/components/ui/badge'; // Will be replaced by icons
 import { Briefcase, ChevronDown, ChevronUp } from 'lucide-react';
-import { getTechnologyByName, experienceDataKeys, experienceTechnologies } from '@/data'; // Import shared tech data, Technology interface not directly needed here
+import { getTechnologyByName, experienceTechnologies } from '@/data';
 import {
     Tooltip,
     TooltipContent,
@@ -14,20 +13,32 @@ import {
 import { Button } from '@/components/ui/button';
 import { useState } from 'react';
 import { ExperienceItem } from '@/types';
+import { sortExperienceKeysByPeriod } from '@/lib/experience';
 
 const INITIAL_ITEMS_TO_SHOW = 3;
+
+type ExperienceTranslationEntry = {
+    role: string;
+    company: string;
+    period: string;
+    description: string;
+    type: ExperienceItem['typeKey'];
+};
 
 export function ExperienceSection() {
     const t = useTranslations('experienceSection');
     const [showAllExperiences, setShowAllExperiences] = useState(false);
 
-    const experiences: ExperienceItem[] = experienceDataKeys.map(key => ({
+    const experienceEntries = t.raw('experiences') as Record<string, ExperienceTranslationEntry>;
+    const experienceKeys = sortExperienceKeysByPeriod(experienceEntries);
+
+    const experiences: ExperienceItem[] = experienceKeys.map(key => ({
         id: key,
         role: t(`experiences.${key}.role`),
         company: t(`experiences.${key}.company`),
         period: t(`experiences.${key}.period`),
         description: t(`experiences.${key}.description`),
-        typeKey: t(`experiences.${key}.type`) as 'fullTime' | 'internship' | 'freelance', // Simplified: directly use the type value as the key
+        typeKey: t(`experiences.${key}.type`) as ExperienceItem['typeKey'],
         technologies: experienceTechnologies[key] || []
     }));
 
