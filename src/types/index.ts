@@ -2,12 +2,47 @@ import type { IconType } from 'react-icons';
 
 export interface Project {
     id: string;
-    href: string;
     imageSrc: string;
     width: number;
     height: number;
+    roleBadgeKey?: ProjectRoleBadgeKey;
 }
 
+export type ProjectVisibility = 'public' | 'privateCaseStudy';
+
+export type ProjectRoleBadgeKey =
+    | 'productLeadership'
+    | 'ideationLeadership'
+    | 'technicalLeadershipExecution';
+
+export interface PublicProject extends Project {
+    visibility: 'public';
+    href: string;
+}
+
+export interface PrivateCaseStudyProject extends Project {
+    visibility: 'privateCaseStudy';
+    confidentialityBadgeKey: 'privateCaseStudy';
+}
+
+export type ProjectItem = PublicProject | PrivateCaseStudyProject;
+
+export interface ProjectCaseStudyContent {
+    summary: string;
+    problem: string;
+    role: string;
+    solution: string;
+    stack: string;
+    impact: string;
+    confidentialityNote: string;
+}
+
+export interface ProjectTranslationContent {
+    title: string;
+    shortDescription: string;
+    fullDescription?: string;
+    caseStudy?: ProjectCaseStudyContent;
+}
 export type ExperienceTypeKey = 'fullTime' | 'internship' | 'freelance';
 
 export interface ExperienceRoleItem {

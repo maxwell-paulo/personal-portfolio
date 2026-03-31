@@ -12,6 +12,76 @@
             "contact": "Contact"
         },
         "projects": {
+            "bonapp": {
+                "title": "Bonapp",
+                "shortDescription": "Restaurant CRM focused on commercial operations, relationship management, and product evolution inside Assessoria Alpha.",
+                "caseStudy": {
+                    "summary": "I led the development direction of Bonapp as a strategic product initiative inside Assessoria Alpha, helping shape a clearer foundation for growth, integrations, and product expansion.",
+                    "problem": "The challenge was to consolidate a restaurant CRM with strong internal strategic potential while aligning product vision, operational needs, and future expansion without exposing unnecessary complexity to end users.",
+                    "role": "My role was centered on product and delivery leadership. I defined direction, priorities, and alignment between business and technology while guiding the product evolution without directly contributing code.",
+                    "solution": "I helped drive the product definition around operational clarity, scalable feature growth, and tighter connections with other digital fronts in the company ecosystem, including commercial and menu-related opportunities.",
+                    "stack": "SaaS product strategy, CRM workflows, product definition, cross-functional alignment, and integration between digital and commercial operations.",
+                    "impact": "Bonapp gained a more consistent strategic direction and a stronger foundation for continuous evolution, positioning it as a product with long-term relevance inside the company.",
+                    "confidentialityNote": "This case study has been sanitized to protect internal business details, proprietary decisions, operational workflows, and non-public visual assets."
+                }
+            },
+            "growthHub": {
+                "title": "Growth Hub",
+                "shortDescription": "Internal platform for leads, auctions, credits, and automations with strong emphasis on architecture, security, and business rules.",
+                "caseStudy": {
+                    "summary": "I led and directly contributed to the technical evolution of Growth Hub, a critical internal platform supporting commercial and financial operations with complex workflows and integrations.",
+                    "problem": "The platform needed to support sensitive flows involving leads, automation, credits, payments, and access governance, requiring stronger architecture, better security, and a more maintainable foundation.",
+                    "role": "I worked across technical leadership and hands-on execution. That included architecture evolution, security strengthening, technical organization, and implementation work on important parts of the system foundation.",
+                    "solution": "I drove improvements in architecture, governance, technical structure, and module integration, helping create a more stable base for realtime behavior, triggers, access policies, automations, and business rule expansion.",
+                    "stack": "TypeScript, Next.js, NestJS, PostgreSQL, Supabase, integrations, realtime flows, triggers, RLS, and finance-related workflows.",
+                    "impact": "The platform moved to a more secure, organized, and scalable foundation, making future product growth and operational changes more sustainable.",
+                    "confidentialityNote": "This case omits internal architecture details, security policies, proprietary workflows, finance rules, and non-public interface elements."
+                }
+            },
+            "dashboardComercial": {
+                "title": "Commercial Dashboard",
+                "shortDescription": "Internal lead-management CRM conceived to bring more structure and visibility to the SDR and closer workflow.",
+                "caseStudy": {
+                    "summary": "I conceived and led the evolution of the Commercial Dashboard as a strategic initiative to organize the sales process and improve visibility over leads, statuses, and negotiations.",
+                    "problem": "The commercial operation depended on an older structure with no dedicated backend and limited ability to scale, control, and organize the team workflow effectively.",
+                    "role": "My contribution was centered on ideation and leadership. I shaped the project direction, aligned the solution with the commercial operation, and guided the initiative without hands-on coding.",
+                    "solution": "The project was restructured into a clearer and more scalable solution, separating frontend and API responsibilities while improving lead management, operational visibility, and support for commercial decision-making.",
+                    "stack": "Internal CRM, frontend + API architecture, sales workflows, lead management, and operational tracking.",
+                    "impact": "The commercial team gained a more organized operating structure, better status traceability, and a stronger base to support future growth.",
+                    "confidentialityNote": "This case preserves internal sales funnel logic, proprietary workflow details, business rules, and sensitive operational information."
+                }
+            },
+            "erpApi": {
+                "title": "ERP / ERP API",
+                "shortDescription": "Integration and process-support layer connecting internal rules, systems, and operational dependencies across the company.",
+                "caseStudy": {
+                    "summary": "I led and coded part of the ERP/API initiative to strengthen internal integrations and support operational flows that other company systems depend on.",
+                    "problem": "The operation needed a reliable foundation to connect areas, standardize internal rules, and support dependencies between systems without introducing fragile coupling or rework.",
+                    "role": "I contributed through technical leadership and hands-on execution, supporting structural decisions while implementing relevant parts of the integration foundation.",
+                    "solution": "I worked on organizing the integration layer and reinforcing the technical base that supports internal workflows, helping position the ERP API as a more consistent foundation for other company initiatives.",
+                    "stack": "TypeScript, NestJS, internal APIs, integrations, operational rules, and support for multiple internal product fronts.",
+                    "impact": "The company gained a more reliable base for connecting processes, reducing fragile dependencies, and enabling future integrations with more predictability.",
+                    "confidentialityNote": "This case removes details about internal contracts, specific integrations, proprietary operational rules, and restricted workflows."
+                }
+            },
+            "npsOperacional": {
+                "title": "Operational NPS",
+                "shortDescription": "Internal application focused on operational satisfaction and feedback tracking to support continuous improvement.",
+                "caseStudy": {
+                    "summary": "I led and contributed to the development of Operational NPS to create a more structured way of capturing feedback and perception inside the operation.",
+                    "problem": "The team needed to transform scattered feedback and satisfaction signals into a clearer flow that could support analysis, learning, and continuous operational improvement.",
+                    "role": "I worked in both technical leadership and hands-on execution, helping define the solution direction while contributing directly to implementation.",
+                    "solution": "I supported the creation of an application that centralizes this monitoring with a clearer structure and a technical base prepared for future evolution and internal integrations.",
+                    "stack": "TypeScript, Next.js, NestJS, PostgreSQL, internal integrations, and operational workflow organization.",
+                    "impact": "The operation gained a more structured feedback front, improving visibility into recurring signals and enabling more deliberate process evolution.",
+                    "confidentialityNote": "This case study is intentionally sanitized to avoid exposing internal satisfaction data, sensitive workflows, or non-public operational decisions."
+                }
+            },
+            "acaiEmBrasilia": {
+                "title": "Açaí em Brasília",
+                "shortDescription": "Public-facing institutional website built to strengthen the brand's digital presence, commercial communication, and browsing experience.",
+                "fullDescription": "I developed and led the delivery of the Açaí em Brasília website with a focus on clear digital presence, smooth navigation, and a visual experience aligned with the brand. The project was designed to communicate the business more effectively, support the customer discovery journey, and provide a modern foundation for expanding the company's online presence."
+            },
             "finestFlights": {
                 "title": "Finest Flights",
                 "shortDescription": "Responsive front-end solution for an airline ticket sales platform, ensuring a seamless booking experience on any device.",
@@ -53,7 +123,25 @@
     "projectsSection": {
         "title": "My Projects",
         "viewProjectButton": "View Project",
-        "viewLiveSiteButton": "View Live Site"
+        "viewCaseStudyButton": "View Case Study",
+        "viewLiveSiteButton": "View Live Site",
+        "roleBadges": {
+            "productLeadership": "Product Leadership",
+            "ideationLeadership": "Ideation + Leadership",
+            "technicalLeadershipExecution": "Technical Leadership + Execution"
+        },
+        "confidentialityBadges": {
+            "privateCaseStudy": "Private Case Study"
+        },
+        "caseStudySections": {
+            "summary": "Summary",
+            "problem": "Problem",
+            "role": "My Role",
+            "solution": "Solution",
+            "stack": "Stack and Context",
+            "impact": "Impact",
+            "confidentiality": "Confidentiality Note"
+        }
     },
     "callToContact": {
         "cta1": {

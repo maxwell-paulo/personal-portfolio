@@ -1,0 +1,26 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#031024"/>
+  <rect x="40" y="40" width="1120" height="550" rx="28" fill="url(#paint0_linear)"/>
+  <rect x="92" y="92" width="1016" height="446" rx="24" fill="#071A35" stroke="#10335E"/>
+  <circle cx="156" cy="156" r="18" fill="#1D4F91"/>
+  <circle cx="212" cy="156" r="18" fill="#1D4F91"/>
+  <circle cx="268" cy="156" r="18" fill="#1D4F91"/>
+  <rect x="120" y="222" width="356" height="40" rx="12" fill="#0D2B52"/>
+  <rect x="120" y="282" width="608" height="28" rx="10" fill="#0F386A"/>
+  <rect x="120" y="326" width="544" height="28" rx="10" fill="#0F386A"/>
+  <rect x="120" y="370" width="468" height="28" rx="10" fill="#0F386A"/>
+  <rect x="120" y="450" width="186" height="52" rx="14" fill="#1D4F91"/>
+  <rect x="806" y="222" width="182" height="182" rx="24" fill="#0D2B52"/>
+  <rect x="836" y="252" width="122" height="16" rx="8" fill="#2C7BE5"/>
+  <rect x="836" y="286" width="96" height="16" rx="8" fill="#5CA0F2"/>
+  <rect x="836" y="332" width="82" height="82" rx="18" fill="#113A6D"/>
+  <path d="M892 352L924 384L892 416L860 384L892 352Z" fill="#81B4F8"/>
+  <text x="120" y="492" fill="#DCEBFF" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">Preview temporário</text>
+  <text x="120" y="535" fill="#9CC3F5" font-family="Arial, Helvetica, sans-serif" font-size="24">Imagem final será adicionada depois</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="40" y1="40" x2="1160" y2="590" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071A35"/>
+      <stop offset="1" stop-color="#0A2347"/>
+    </linearGradient>
+  </defs>
+</svg>

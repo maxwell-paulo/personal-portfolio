@@ -12,6 +12,76 @@
             "contact": "Contato"
         },
         "projects": {
+            "bonapp": {
+                "title": "Bonapp",
+                "shortDescription": "CRM para restaurantes com foco em operação comercial, relacionamento e evolução de produto dentro da Assessoria Alpha.",
+                "caseStudy": {
+                    "summary": "Atuei na liderança do desenvolvimento do Bonapp como uma frente estratégica da Assessoria Alpha, ajudando a transformar o produto em uma base mais clara para crescimento, integração e expansão de funcionalidades.",
+                    "problem": "O desafio era consolidar um produto com potencial real de protagonismo dentro da empresa, organizando a visão do CRM para restaurantes, o alinhamento com a operação e a evolução do escopo sem expor complexidade desnecessária para o usuário final.",
+                    "role": "Minha atuação foi centrada em liderança de produto e entrega. Estruturei direção, prioridades, alinhamento entre negócio e tecnologia e acompanhei a evolução do produto sem participação direta no código.",
+                    "solution": "Conduzi a definição do produto com foco em clareza operacional, escalabilidade de funcionalidades e integração com outras frentes do ecossistema da empresa, incluindo possibilidades de relacionamento mais conectado com cardápio digital e fluxos comerciais.",
+                    "stack": "Produto SaaS, CRM, estratégia de produto, definição funcional, integração entre frentes digitais e operação comercial.",
+                    "impact": "O Bonapp ganhou direcionamento mais consistente como ativo estratégico da empresa, com base mais sólida para evolução contínua e para posicionamento como produto com vida própria dentro da operação.",
+                    "confidentialityNote": "Este case foi sanitizado para preservar detalhes internos de negócio, decisões proprietárias, fluxos operacionais e elementos visuais ainda não públicos."
+                }
+            },
+            "growthHub": {
+                "title": "Growth Hub",
+                "shortDescription": "Plataforma interna de leads, leilões, créditos e automações com forte peso em arquitetura, segurança e regras de negócio.",
+                "caseStudy": {
+                    "summary": "Liderei e participei diretamente da evolução técnica do Growth Hub, uma plataforma interna crítica para operação comercial e financeira, com alta complexidade de regras e integrações.",
+                    "problem": "A plataforma precisava suportar fluxos sensíveis envolvendo leads, automações, créditos, pagamentos e governança de acesso, exigindo mais robustez arquitetural, segurança e capacidade de evolução sem aumentar fragilidade operacional.",
+                    "role": "Atuei em liderança técnica e execução prática. Participei da evolução da arquitetura, fortalecimento da segurança, organização da base técnica e implementação de melhorias importantes na estrutura da aplicação.",
+                    "solution": "Conduzi melhorias em arquitetura, governança, organização técnica e integração entre módulos, apoiando uma base mais estável para realtime, triggers, políticas de acesso, automações e expansão das regras de negócio.",
+                    "stack": "TypeScript, Next.js, NestJS, PostgreSQL, Supabase, integrações, realtime, triggers, RLS e fluxos financeiros.",
+                    "impact": "O sistema passou a operar sobre uma base mais segura, organizada e preparada para suportar crescimento do produto e novas demandas sem perder controle técnico.",
+                    "confidentialityNote": "Este case omite detalhes internos de arquitetura, políticas de segurança, fluxos proprietários, regras financeiras e telas não públicas."
+                }
+            },
+            "dashboardComercial": {
+                "title": "Dashboard Comercial",
+                "shortDescription": "CRM interno para gestão de leads e acompanhamento da operação comercial, idealizado para dar mais estrutura ao fluxo de SDRs e closers.",
+                "caseStudy": {
+                    "summary": "Idealizei e liderei a evolução do Dashboard Comercial como uma frente estratégica para organizar o processo comercial e dar mais clareza ao acompanhamento de leads, status e negociações.",
+                    "problem": "A operação comercial dependia de uma estrutura anterior limitada, sem backend dedicado e com pouca capacidade de escala, controle e organização para o time comercial.",
+                    "role": "Minha participação foi de idealização e liderança. Modelei a direção do projeto, alinhei a solução com a operação comercial e conduzi a evolução da frente sem envolvimento direto no código.",
+                    "solution": "O projeto foi reorganizado como uma solução mais clara e escalável, com separação entre frontend e API, além de maior foco em gestão do funil, visibilidade operacional e suporte à tomada de decisão comercial.",
+                    "stack": "CRM interno, arquitetura orientada a frontend + API, fluxo comercial, gestão de leads e acompanhamento operacional.",
+                    "impact": "A frente comercial passou a contar com uma estrutura mais organizada, com melhor rastreabilidade de status e uma base mais preparada para crescimento da operação.",
+                    "confidentialityNote": "Este case preserva detalhes internos do funil comercial, fluxos proprietários, regras de negócio e informações sensíveis da operação."
+                }
+            },
+            "erpApi": {
+                "title": "ERP / API do ERP",
+                "shortDescription": "Camada de integração e sustentação de processos internos, conectando regras operacionais e sistemas da empresa.",
+                "caseStudy": {
+                    "summary": "Liderei e atuei no código da frente de ERP/API para fortalecer integrações internas e dar sustentação a fluxos operacionais essenciais para a empresa.",
+                    "problem": "A operação exigia uma base confiável para integrar áreas, padronizar regras internas e suportar dependências entre sistemas sem gerar retrabalho ou fragilidade entre frentes.",
+                    "role": "Atuei em liderança técnica e execução prática, apoiando decisões estruturais e implementando partes relevantes da evolução da base de integração.",
+                    "solution": "Trabalhei na organização da camada de integração e no fortalecimento da base técnica que sustenta fluxos internos, ajudando a tornar a API do ERP uma fundação mais consistente para outras iniciativas da empresa.",
+                    "stack": "TypeScript, NestJS, APIs internas, integrações, regras operacionais e suporte a múltiplas frentes do ecossistema interno.",
+                    "impact": "A empresa ganhou uma base mais confiável para conectar processos, reduzir acoplamentos frágeis e apoiar novas integrações com mais previsibilidade.",
+                    "confidentialityNote": "Este case remove detalhes sobre contratos internos, integrações específicas, regras operacionais proprietárias e fluxos ainda restritos."
+                }
+            },
+            "npsOperacional": {
+                "title": "NPS Operacional",
+                "shortDescription": "Aplicação interna voltada ao acompanhamento de satisfação e feedback operacional para apoiar melhoria contínua.",
+                "caseStudy": {
+                    "summary": "Liderei e participei do desenvolvimento do NPS Operacional para estruturar uma visão mais consistente de feedback e percepção dentro da operação.",
+                    "problem": "Era necessário transformar sinais dispersos de satisfação e feedback em um fluxo mais organizado, útil para análise e para melhoria contínua da operação.",
+                    "role": "Atuei em liderança técnica e execução prática, ajudando a definir o direcionamento da solução e contribuindo diretamente na implementação da base do produto.",
+                    "solution": "Conduzi a construção de uma aplicação capaz de centralizar esse acompanhamento de forma mais clara, com base técnica preparada para evolução e integração com outras frentes internas quando necessário.",
+                    "stack": "TypeScript, Next.js, NestJS, PostgreSQL, integrações internas e organização de fluxos operacionais.",
+                    "impact": "A operação passou a contar com uma frente mais estruturada para leitura de feedback, aprendizado contínuo e evolução de processos baseada em acompanhamento consistente.",
+                    "confidentialityNote": "Este case foi escrito de forma sanitizada para não expor dados internos de satisfação, fluxos sensíveis ou decisões operacionais não públicas."
+                }
+            },
+            "acaiEmBrasilia": {
+                "title": "Açaí em Brasília",
+                "shortDescription": "Site institucional público desenvolvido para fortalecer presença digital, comunicação comercial e experiência de navegação da marca.",
+                "fullDescription": "Desenvolvi e liderei a entrega do site do Açaí em Brasília com foco em presença digital clara, navegação fluida e uma experiência visual alinhada à marca. O projeto foi pensado para comunicar melhor a proposta do negócio, apoiar a jornada de descoberta dos clientes e oferecer uma base moderna para expansão da presença online."
+            },
             "finestFlights": {
                 "title": "Finest Flights",
                 "shortDescription": "Solução de front-end responsiva para uma plataforma de venda de passagens aéreas, garantindo uma experiência de reserva fluida em qualquer dispositivo.",
@@ -53,7 +123,25 @@
     "projectsSection": {
         "title": "Meus Projetos",
         "viewProjectButton": "Ver Projeto",
-        "viewLiveSiteButton": "Ver site ao vivo"
+        "viewCaseStudyButton": "Ver Estudo de Caso",
+        "viewLiveSiteButton": "Ver site ao vivo",
+        "roleBadges": {
+            "productLeadership": "Liderança de Produto",
+            "ideationLeadership": "Idealização + Liderança",
+            "technicalLeadershipExecution": "Liderança Técnica + Execução"
+        },
+        "confidentialityBadges": {
+            "privateCaseStudy": "Case Privado"
+        },
+        "caseStudySections": {
+            "summary": "Resumo",
+            "problem": "Problema",
+            "role": "Minha Atuação",
+            "solution": "Solução",
+            "stack": "Stack e Contexto",
+            "impact": "Impacto",
+            "confidentiality": "Nota de Confidencialidade"
+        }
     },
     "callToContact": {
         "cta1": {
