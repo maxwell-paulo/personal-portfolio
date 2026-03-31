@@ -5,10 +5,13 @@ export interface Project {
     imageSrc: string;
     width: number;
     height: number;
+    groupKeys: ProjectGroupKey[];
     roleBadgeKey?: ProjectRoleBadgeKey;
 }
 
 export type ProjectVisibility = 'public' | 'privateCaseStudy';
+export type ProjectGroupKey = 'featured' | 'alpha' | 'public';
+export type ProjectFilterKey = ProjectGroupKey | 'all';
 
 export type ProjectRoleBadgeKey =
     | 'productLeadership'

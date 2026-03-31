@@ -122,9 +122,17 @@
     },
     "projectsSection": {
         "title": "Meus Projetos",
+        "groups": {
+            "featured": "Destaques",
+            "alpha": "Alpha",
+            "public": "Projetos Públicos",
+            "all": "Todos"
+        },
         "viewProjectButton": "Ver Projeto",
         "viewCaseStudyButton": "Ver Estudo de Caso",
         "viewLiveSiteButton": "Ver site ao vivo",
+        "showMoreButton": "Mostrar Mais",
+        "showLessButton": "Mostrar Menos",
         "roleBadges": {
             "productLeadership": "Liderança de Produto",
             "ideationLeadership": "Idealização + Liderança",
