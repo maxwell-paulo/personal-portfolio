@@ -39,10 +39,10 @@
                 }
             },
             "dashboardComercial": {
-                "title": "Dashboard Comercial",
+                "title": "CRM Comercial",
                 "shortDescription": "CRM interno para gestão de leads e acompanhamento da operação comercial, idealizado para dar mais estrutura ao fluxo de SDRs e closers.",
                 "caseStudy": {
-                    "summary": "Idealizei e liderei a evolução do Dashboard Comercial como uma frente estratégica para organizar o processo comercial e dar mais clareza ao acompanhamento de leads, status e negociações.",
+                    "summary": "Idealizei e liderei a evolução do CRM Comercial como uma frente estratégica para organizar o processo comercial e dar mais clareza ao acompanhamento de leads, status e negociações.",
                     "problem": "A operação comercial dependia de uma estrutura anterior limitada, sem backend dedicado e com pouca capacidade de escala, controle e organização para o time comercial.",
                     "role": "Minha participação foi de idealização e liderança. Modelei a direção do projeto, alinhei a solução com a operação comercial e conduzi a evolução da frente sem envolvimento direto no código.",
                     "solution": "O projeto foi reorganizado como uma solução mais clara e escalável, com separação entre frontend e API, além de maior foco em gestão do funil, visibilidade operacional e suporte à tomada de decisão comercial.",

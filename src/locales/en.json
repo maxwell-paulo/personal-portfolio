@@ -39,10 +39,10 @@
                 }
             },
             "dashboardComercial": {
-                "title": "Commercial Dashboard",
+                "title": "Commercial CRM",
                 "shortDescription": "Internal lead-management CRM conceived to bring more structure and visibility to the SDR and closer workflow.",
                 "caseStudy": {
-                    "summary": "I conceived and led the evolution of the Commercial Dashboard as a strategic initiative to organize the sales process and improve visibility over leads, statuses, and negotiations.",
+                    "summary": "I conceived and led the evolution of the Commercial CRM as a strategic initiative to organize the sales process and improve visibility over leads, statuses, and negotiations.",
                     "problem": "The commercial operation depended on an older structure with no dedicated backend and limited ability to scale, control, and organize the team workflow effectively.",
                     "role": "My contribution was centered on ideation and leadership. I shaped the project direction, aligned the solution with the commercial operation, and guided the initiative without hands-on coding.",
                     "solution": "The project was restructured into a clearer and more scalable solution, separating frontend and API responsibilities while improving lead management, operational visibility, and support for commercial decision-making.",

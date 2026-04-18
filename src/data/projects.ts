@@ -1,7 +1,5 @@
 import { ProjectItem } from '@/types';
 
-const placeholderImageSrc = '/project-placeholder.svg';
-
 export const projectItems: ProjectItem[] = [
     {
         id: "bonapp",
@@ -9,7 +7,7 @@ export const projectItems: ProjectItem[] = [
         confidentialityBadgeKey: "privateCaseStudy",
         groupKeys: ["featured", "alpha"],
         roleBadgeKey: "productLeadership",
-        imageSrc: placeholderImageSrc,
+        imageSrc: "/projects/bonapp-2.jpeg",
         width: 1200,
         height: 630
     },
@@ -19,7 +17,7 @@ export const projectItems: ProjectItem[] = [
         confidentialityBadgeKey: "privateCaseStudy",
         groupKeys: ["featured", "alpha"],
         roleBadgeKey: "technicalLeadershipExecution",
-        imageSrc: placeholderImageSrc,
+        imageSrc: "/projects/growth-hub-1.jpeg",
         width: 1200,
         height: 630
     },
@@ -29,7 +27,7 @@ export const projectItems: ProjectItem[] = [
         confidentialityBadgeKey: "privateCaseStudy",
         groupKeys: ["featured", "alpha"],
         roleBadgeKey: "ideationLeadership",
-        imageSrc: placeholderImageSrc,
+        imageSrc: "/projects/dashboard-comercial.png",
         width: 1200,
         height: 630
     },
@@ -39,7 +37,7 @@ export const projectItems: ProjectItem[] = [
         confidentialityBadgeKey: "privateCaseStudy",
         groupKeys: ["alpha"],
         roleBadgeKey: "technicalLeadershipExecution",
-        imageSrc: placeholderImageSrc,
+        imageSrc: "/projects/erp.jpeg",
         width: 1200,
         height: 630
     },
@@ -49,7 +47,7 @@ export const projectItems: ProjectItem[] = [
         confidentialityBadgeKey: "privateCaseStudy",
         groupKeys: ["alpha"],
         roleBadgeKey: "technicalLeadershipExecution",
-        imageSrc: placeholderImageSrc,
+        imageSrc: "/projects/nps.png",
         width: 1200,
         height: 630
     },
@@ -59,7 +57,7 @@ export const projectItems: ProjectItem[] = [
         groupKeys: ["featured", "alpha", "public"],
         roleBadgeKey: "technicalLeadershipExecution",
         href: "https://www.acaiembrasilia.com.br/",
-        imageSrc: placeholderImageSrc,
+        imageSrc: "/projects/acai-em-brasilia.png",
         width: 1200,
         height: 630
     },
