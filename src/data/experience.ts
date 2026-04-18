@@ -4,7 +4,7 @@ type ExperienceTechnologyMap = string[] | Record<string, string[]>;
 export const experienceTechnologies: Record<string, ExperienceTechnologyMap> = {
     exp0: {
         headOfTechnology: ["TypeScript", "Next.js", "NestJS", "PostgreSQL", "Supabase", "Railway", "Vercel", "n8n", "Software Architecture", "DevSecOps", "Process Structuring"],
-        techLead: ["TypeScript", "Next.js", "NestJS", "PostgreSQL", "Supabase", "Railway", "Vercel", "n8n", "HubSpot API", "Asaas API"],
+        techLead: ["TypeScript", "Next.js", "NestJS", "PostgreSQL", "Supabase", "Railway", "Vercel", "n8n",],
         fullStackDeveloper: ["TypeScript", "Next.js", "React", "NestJS", "PostgreSQL", "Prisma", "Supabase", "REST APIs"],
     },
     exp1: ["Next.js", "TypeScript", "React", "Tailwind CSS"],

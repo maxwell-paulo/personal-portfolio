@@ -33,8 +33,6 @@ export const technologiesList: Technology[] = [
     { name: "CSS", IconComponent: SiCss3 },
     { name: "Tailwind CSS", aliases: ["Tailwind"], IconComponent: SiTailwindcss },
     { name: "REST API", aliases: ["Rest API", "REST APIs"], IconComponent: TbApi },
-    { name: "HubSpot API", IconComponent: TbApi },
-    { name: "Asaas API", IconComponent: TbApi },
     { name: "Railway", IconComponent: SiRailway },
     { name: "Vercel", IconComponent: SiVercel },
     { name: "n8n", IconComponent: SiN8N },
